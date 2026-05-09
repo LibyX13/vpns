@@ -1,6 +1,7 @@
 #profile-title: base64:4pqh77iPIHNpeCBzZXZlbg==
 #subscription-userinfo: upload=0; download=0; total=0; expire=0
 #profile-update-interval: 1
+#profile-locked: true
 
 vless://6873bd65-4443-0028-9412-e3c287fbeffd@pro-se.emrata.top:443?encryption=none&security=reality&sni=pro-se.emrata.top&fp=chrome&pbk=AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk&sid=&type=tcp&headerType=none#🇸🇪 Швеция
 vless://6873bd65-4443-0032-9412-e3c287fbeffd@pro-uk.emrata.top:443?encryption=none&security=reality&sni=pro-uk.emrata.top&fp=chrome&pbk=RYnbBzo-UTB4nVMymzJ5B6TgYed7DfOc6O5Pr_htYSc&sid=&type=tcp&headerType=none#🇬🇧 Великобритания
