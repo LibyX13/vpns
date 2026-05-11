@@ -1,7 +1,6 @@
-#profile-title: WL VPN
+#profile-title: VPN Config
 #subscription-userinfo: upload=0; download=0; total=0; expire=1780918097
 #profile-update-interval: 1
-#profile-web-page-url: https://t.me/google.com
 vless://6873bd65-4443-0001-9412-e3c287fbeffd@pro-de.emrata.top:443?encryption=none&security=reality&sni=pro-de.emrata.top&fp=firefox&pbk=F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I&sid=&type=tcp&headerType=none#🇩🇪 Германия ⚡️
 vless://6873bd65-4443-0028-9412-e3c287fbeffd@pro-se.emrata.top:443?encryption=none&security=reality&sni=pro-se.emrata.top&fp=chrome&pbk=AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk&sid=&type=tcp&headerType=none#🇸🇪 Швеция
 vless://6873bd65-4443-0032-9412-e3c287fbeffd@pro-uk.emrata.top:443?encryption=none&security=reality&sni=pro-uk.emrata.top&fp=chrome&pbk=RYnbBzo-UTB4nVMymzJ5B6TgYed7DfOc6O5Pr_htYSc&sid=&type=tcp&headerType=none#🇬🇧 Великобритания
