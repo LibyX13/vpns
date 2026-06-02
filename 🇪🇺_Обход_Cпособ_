@@ -70,8 +70,8 @@
         "network": "tcp",
         "realitySettings": {
           "fingerprint": "firefox",
-          "publicKey": "xwusQ4IEWdYyuPLCc4LOA89P6HyQDNT7xo_75v2YW2I",
-          "serverName": "api-maps.yandex.ru",
+          "publicKey": "v6rib0-2FxBd1MnBxdylbIRIhvXywSj56QEtCkaEuBo",
+          "serverName": "ads.x5.ru",
           "shortId": "27e53bbcab7593d7",
           "spiderX": "/"
         },
@@ -89,7 +89,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "🇪🇺 Обход | Cпособ #0-2",
+  "remarks": "🇪🇺 Обход | Cпособ #0-3",
   "routing": {
     "domainStrategy": "IPIfNonMatch",
     "rules": [
