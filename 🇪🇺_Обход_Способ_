@@ -54,7 +54,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "84.201.136.144",
+            "address": "84.201.135.155",
             "port": 443,
             "users": [
               {
@@ -70,9 +70,9 @@
         "network": "tcp",
         "realitySettings": {
           "fingerprint": "firefox",
-          "publicKey": "qcIX4MLWztJdONWaGzZBXZwXV2Yfv3EO6h8-Vkdx1wU",
+          "publicKey": "FatyuzFzmjX3-Qny3QEnEk20yKs-ntbYeW9j8BmPCmY",
           "serverName": "smartcaptcha.yandexcloud.net",
-          "shortId": "63c6cfc2ec6358dd",
+          "shortId": "d9cc03d1e2a59565",
           "spiderX": "/"
         },
         "security": "reality",
@@ -89,7 +89,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "🇪🇺 Обход | Способ #7-3",
+  "remarks": "🇪🇺 Обход | Способ #8-1",
   "routing": {
     "domainStrategy": "IPIfNonMatch",
     "rules": [
