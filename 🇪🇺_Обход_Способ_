@@ -69,10 +69,10 @@
       "streamSettings": {
         "network": "tcp",
         "realitySettings": {
-          "fingerprint": "firefox",
-          "publicKey": "Mg3Mb8ytziQ0Er2DUGxFCxXz8OwxSyiVncjFmMNzdSo",
-          "serverName": "api-maps.yandex.ru",
-          "shortId": "f9b6823bf4858816",
+          "fingerprint": "chrome",
+          "publicKey": "UHGjVgtwSlQPrbSCWuZC4zJ3i77nRqTsfbe_1ROSsGk",
+          "serverName": "ads.x5.ru",
+          "shortId": "18e0fe7e5e69b288",
           "spiderX": "/"
         },
         "security": "reality",
@@ -89,7 +89,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "🇪🇺 Обход | Способ #8-2",
+  "remarks": "🇪🇺 Обход | Способ #8-3",
   "routing": {
     "domainStrategy": "IPIfNonMatch",
     "rules": [
