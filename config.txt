@@ -1,3 +1,4 @@
+vless://b7d7afd4-a5e0-49ed-aea8-62a6ae8027e3@ee.silent.mom:8080?encryption=none&security=tls&sni=ee.silent.mom&fp=chrome&type=ws&path=%2Fdevlink#🇪🇺 Авто ⚡️
 vless://6873bd65-4443-4a21-9412-e3c287fbeffd@pro-fi.emrata.top:753?encryption=none&flow=xtls-rprx-vision&security=reality&sni=pro-fi.emrata.top&fp=firefox&pbk=F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I&sid=&type=tcp&headerType=none#🇫🇮 Финляндия ⚡️
 vless://6873bd65-4443-0028-9412-e3c287fbeffd@pro-se.emrata.top:443?encryption=none&security=reality&sni=pro-se.emrata.top&fp=chrome&pbk=AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk&sid=&type=tcp&headerType=none#🇸🇪 Швеция
 vless://6873bd65-4443-0032-9412-e3c287fbeffd@pro-uk.emrata.top:443?encryption=none&security=reality&sni=pro-uk.emrata.top&fp=chrome&pbk=RYnbBzo-UTB4nVMymzJ5B6TgYed7DfOc6O5Pr_htYSc&sid=&type=tcp&headerType=none#🇬🇧 Великобритания
