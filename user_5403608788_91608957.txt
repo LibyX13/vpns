@@ -1,8 +1,8 @@
 #profile-title: WL VPN
-#subscription-userinfo: upload=0; download=0; total=0; expire=1780777062
+#subscription-userinfo: upload=0; download=0; total=0; expire=1780787862
 #profile-update-interval: 1
 #profile-web-page-url: https://t.me/wlbasevpn_bot
-#announce: Если вы видите рядом с сервером ❌ - этот сервер Proxy, остальные защищены. Для обхода глушилок используйте сервера обходов с пометкой 🌐
+#announce: Если вы видите рядом с сервером 🔓 - этот сервер Proxy, остальные защищены. Для обхода глушилок используйте сервера обходов с пометкой 🌐
 vless://dd2e6921-9999-43cc-99ce-e6fc5700143e@vpn-sg.spend.tg:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=apple.com&fp=qq&pbk=kt-wshmPVd-J1dlU-tsXUoGag2-oFwYQ5UafScaAfzQ&type=tcp&headerType=none#🇸🇬 Сингапур 1
 vless://dd2e6921-9999-43cc-99ce-e6fc5700143e@185.253.116.18:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=apple.com&fp=qq&pbk=kt-wshmPVd-J1dlU-tsXUoGag2-oFwYQ5UafScaAfzQ&type=tcp&headerType=none#🇦🇪 Дубаи 1
 vless://dd2e6921-9999-0001-99ce-e6fc5700143e@192.142.8.1:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=gifs-collection.fyi&fp=chrome&pbk=6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY&type=tcp&headerType=none#🇺🇸 ❌ США 1 ❌
