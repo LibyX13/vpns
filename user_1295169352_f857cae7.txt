@@ -2,7 +2,7 @@
 #subscription-userinfo: upload=0; download=0; total=0; expire=1780928897
 #profile-update-interval: 1
 #profile-web-page-url: https://t.me/wlbasevpn_bot
-#announce: Для обхода глушилок используйте сервера обходов с пометкой 🌐
+#announce: Если вы видите рядом с сервером 🔓 - этот сервер Proxy, остальные защищены. Для обхода глушилок используйте сервера обходов с пометкой 🌐
 vless://dd2e6921-9999-43cc-99ce-e6fc5700143e@vpn-sg.spend.tg:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=apple.com&fp=qq&pbk=kt-wshmPVd-J1dlU-tsXUoGag2-oFwYQ5UafScaAfzQ&type=tcp&headerType=none#🇸🇬 Сингапур 1
 vless://dd2e6921-9999-43cc-99ce-e6fc5700143e@185.253.116.18:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=apple.com&fp=qq&pbk=kt-wshmPVd-J1dlU-tsXUoGag2-oFwYQ5UafScaAfzQ&type=tcp&headerType=none#🇦🇪 Дубаи 1
 vless://dd2e6921-9999-43cc-99ce-e6fc5700143e@vpn-ru.spend.tg:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=apple.com&fp=qq&pbk=kt-wshmPVd-J1dlU-tsXUoGag2-oFwYQ5UafScaAfzQ&type=tcp&headerType=none#🇪🇺 Ютуб без рекламы
