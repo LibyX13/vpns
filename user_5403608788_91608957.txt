@@ -2,14 +2,12 @@
 #subscription-userinfo: upload=0; download=0; total=0; expire=1780787862
 #profile-update-interval: 1
 #profile-web-page-url: https://t.me/wlbasevpn_bot
-#announce: Если вы видите рядом с сервером 🔓 - этот сервер Proxy, остальные защищены. Для обхода глушилок используйте сервера обходов с пометкой 🌐
-vless://dd2e6921-9999-43cc-99ce-e6fc5700143e@vpn-sg.spend.tg:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=apple.com&fp=qq&pbk=kt-wshmPVd-J1dlU-tsXUoGag2-oFwYQ5UafScaAfzQ&type=tcp&headerType=none#🇸🇬 Сингапур 1
-vless://dd2e6921-9999-43cc-99ce-e6fc5700143e@185.253.116.18:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=apple.com&fp=qq&pbk=kt-wshmPVd-J1dlU-tsXUoGag2-oFwYQ5UafScaAfzQ&type=tcp&headerType=none#🇦🇪 Дубаи 1
-vless://dd2e6921-9999-43cc-99ce-e6fc5700143e@vpn-ru.spend.tg:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=apple.com&fp=qq&pbk=kt-wshmPVd-J1dlU-tsXUoGag2-oFwYQ5UafScaAfzQ&type=tcp&headerType=none#🇪🇺 Ютуб без рекламы
-vless://dd2e6921-9999-0001-99ce-e6fc5700143e@192.142.8.1:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=gifs-collection.fyi&fp=chrome&pbk=6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY&type=tcp&headerType=none#🇳🇱 Нидерланды 3
-vless://dd2e6921-9999-43cc-99ce-e6fc5700143e@72.56.34.195:8442?encryption=none&flow=xtls-rprx-vision&security=reality&sni=5post-gate.x5.ru&fp=chrome&pbk=S2HUSMt4MXbZTF7pBc2vBdIFat7kNlvq0QiTqEDrLUA&type=tcp&headerType=none#🇳🇱 Нидерланды 4
-vless://dd2e6921-9999-0003-99ce-e6fc5700143e@192.142.12.1:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=gifs-collection.fyi&fp=chrome&pbk=6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY&type=tcp&headerType=none#🇩🇪 Германия 2
-vless://dd2e6921-9999-43cc-99ce-e6fc5700143e@72.56.34.195:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=5post-gate.x5.ru&fp=chrome&pbk=BBmixcZDs_ETN7JQfMblZfRFscTbwRbOL9J3KtRlPRc&type=tcp&headerType=none#🇩🇪 Германия 3
-vless://dd2e6921-9999-43cc-99ce-e6fc5700143e@51.250.30.235:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=5post-gate.x5.ru&fp=chrome&pbk=XSyv5Fi_gW72GREh-PyGjfNfN4_Zyuuq6A-klKEU2Hc&type=tcp&headerType=none#🇪🇺 Обход 1 🌐
-vless://dd2e6921-9999-43cc-99ce-e6fc5700143e@158.160.193.151:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=5post-gate.x5.ru&fp=chrome&pbk=XSyv5Fi_gW72GREh-PyGjfNfN4_Zyuuq6A-klKEU2Hc&type=tcp&headerType=none#🇪🇺 Обход 2 🌐
-vless://dd2e6921-9999-43cc-99ce-e6fc5700143e@cdn.gifs-collection.fyi:443?encryption=none&flow=&security=tls&sni=cdn.gifs-collection.fyi&fp=chrome&type=xhttp&path=%2Fubuntu-releases%2F22.04.5%2Fubuntu-22.04.5-desktop-amd64.iso&host=&mode=packet-up#🇪🇺 Обход 3 🌐
+#announce: Для обхода глушилок используйте сервера обходов с пометкой 🌐
+
+vless://c378a9c9-9d37-4881-8e22-b6c899cf8811@pl.sywl3.us:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=xy8AHr_xZCNqFOuLq_t2fe4oLlrv5iu38uCQ1hUJ40w&security=reality&sid=954c99065465428d&sni=dropbox.com&type=tcp#🇵🇱 Польша
+vless://c378a9c9-9d37-4881-8e22-b6c899cf8811@sk.sywl3.us:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=fSVOt95wi4d_22phiowOtpbs8yPjrufSwdHCtFHpQ1E&security=reality&sid=b1e47a9c02df6385&sni=cloudflare.com&type=tcp#🇸🇰 Словакия
+vless://c378a9c9-9d37-4881-8e22-b6c899cf8811@70.36.125.31:443?encryption=none&fp=chrome&pbk=1Bg0Y7eudf8Gq64xluMQnkOk9rxtKpPei-zDpz9rtws&security=reality&sid=dfc6baea7db80dff&sni=ru.pinterest.com&type=xhttp#🇺🇸 США
+vless://c378a9c9-9d37-4881-8e22-b6c899cf8811@de2.sywl3.us:443?encryption=none&fp=chrome&pbk=fW5s_gkXIOtT3HYnOkcRWUjUSU2WnfeBMndPEx_fjnM&security=reality&sid=4cac821e49ebabd5&sni=www.siemens.com&type=xhttp#🇩🇪 Германия
+vless://c378a9c9-9d37-4881-8e22-b6c899cf8811@am.synatra.net:4430?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=ve_gRq67ZmwVXig3oTSuvgh0UHLktlcwyI5XYP4UMyg&security=reality&sid=657e6f4ccdb8a092&sni=deepl.com&type=tcp#🇦🇲 Армения
+vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@78.159.250.116:10443?encryption=none&fp=chrome&pbk=KONaLFa2_5efdUtXz0TDfj8DZf65Lqli1935Mr36DnU&security=reality&sni=max.ru&type=grpc#🇪🇺 Обход 1 🌐
+vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@sywl2live.us:443?encryption=none&fp=chrome&pbk=BlwNyV_vGCP421aD6p92qJHR-L3iIOfC6yD2F2asIjc&security=reality&sid=21ea8a5c00cd59d8&sni=m.vk.ru&type=grpc#🇪🇺 Обход 2 🌐
