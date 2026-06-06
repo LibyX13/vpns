@@ -1,5 +1,5 @@
 #profile-title: WL VPN
-#subscription-userinfo: upload=0; download=0; total=0; expire=1782527205
+#subscription-userinfo: upload=0; download=0; total=0; expire=1782538005
 #profile-update-interval: 1
 #profile-web-page-url: https://t.me/wlbasevpn_bot
 #announce: ⚠️ Для обхода белых списков используйте сервера обходов в конце вашей подписки.
@@ -20,5 +20,11 @@ vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@server3.sywl2live.us:8443?encryptio
 hysteria2://d38b7065-40c9-4ead-9b7a-3ecbd6875060@test3.sywl2live.us:8443?insecure=0&obfs=none&pinSHA256=&sni=test3.sywl2live.us#🇪🇺 Обход 4
 hysteria2://d38b7065-40c9-4ead-9b7a-3ecbd6875060@work.sywl2live.us:18241?insecure=0&obfs=none&pinSHA256=&sni=work.sywl2live.us#🇪🇺 Обход 5
 
-vless://220b78c0-a46d-4142-9178-4d541921239d@5.188.115.218:22611?encryption=none&fp=chrome&pbk=pB2WMmoWnmXfPnPMzbhA5R03su6TrzM0gAbwvFU6jVo&security=reality&sni=api-maps.yandex.ru&type=grpc&serviceName=maps-rpc#🇪🇺 [Лимит] Обход 6
-vless://220b78c0-a46d-4142-9178-4d541921239d@5.188.115.218:43171?encryption=none&fp=chrome&pbk=8DsY42xvfzLsLNgUcAgmbukcQVR8oucVUjfHgy03sDA&security=reality&sni=rutube.ru&type=grpc&serviceName=rt-rpc#🇪🇺 [Лимит] Обход 7
+vless://2d3e005f-eb6d-4abf-ac84-b9ed2a04df79@89.208.230.117:443?encryption=none&flow=xtls-rprx-vision&fp=qq&pbk=_Fn83OdYDYlE9I4uRlAGkIVQBtOHKjU2Z19fGXzeQEs&security=reality&sni=www.vk.com&type=tcp#🇪🇺 Обход 6
+vless://2d3e005f-eb6d-4abf-ac84-b9ed2a04df79@51.250.95.170:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=vUqDEx0U33StHVKNQz11H_FsuwVmfqwUZlRNv0zmvzY&security=reality&sni=ads.x5.ru&type=tcp#🇪🇺 Обход 7
+vless://2d3e005f-eb6d-4abf-ac84-b9ed2a04df79@84.252.129.218:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=vUqDEx0U33StHVKNQz11H_FsuwVmfqwUZlRNv0zmvzY&security=reality&sni=ads.x5.ru&type=tcp#🇪🇺 Обход 8
+vless://2d3e005f-eb6d-4abf-ac84-b9ed2a04df79@158.160.105.105:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=vUqDEx0U33StHVKNQz11H_FsuwVmfqwUZlRNv0zmvzY&security=reality&sni=ads.x5.ru&type=tcp#🇪🇺 Обход 9
+vless://2d3e005f-eb6d-4abf-ac84-b9ed2a04df79@51.250.81.153:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=vUqDEx0U33StHVKNQz11H_FsuwVmfqwUZlRNv0zmvzY&security=reality&sni=ads.x5.ru&type=tcp#🇪🇺 Обход 10
+vless://2d3e005f-eb6d-4abf-ac84-b9ed2a04df79@84.252.130.193:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=vUqDEx0U33StHVKNQz11H_FsuwVmfqwUZlRNv0zmvzY&security=reality&sni=ads.x5.ru&type=tcp#🇪🇺 Обход 11
+vless://2d3e005f-eb6d-4abf-ac84-b9ed2a04df79@158.160.60.2:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=vUqDEx0U33StHVKNQz11H_FsuwVmfqwUZlRNv0zmvzY&security=reality&sni=ads.x5.ru&type=tcp#🇪🇺 Обход 12
+vless://2d3e005f-eb6d-4abf-ac84-b9ed2a04df79@158.160.86.177:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=vUqDEx0U33StHVKNQz11H_FsuwVmfqwUZlRNv0zmvzY&security=reality&sni=ads.x5.ru&type=tcp#🇪🇺 Обход 13
