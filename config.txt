@@ -12,7 +12,7 @@ vless://6873bd65-4443-0001-9412-e3c287fbeffd@pro-ru-bridge.emrata.top:443?encryp
 vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@78.159.250.116:10443?encryption=none&fp=chrome&pbk=KONaLFa2_5efdUtXz0TDfj8DZf65Lqli1935Mr36DnU&security=reality&sni=max.ru&type=grpc#🇪🇺 Обход 1 [Банк]
 vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@sywl2live.us:443?encryption=none&fp=chrome&pbk=BlwNyV_vGCP421aD6p92qJHR-L3iIOfC6yD2F2asIjc&security=reality&sni=m.vk.ru&sid=21ea8a5c00cd59d8&type=grpc&serviceName=grpc#🇪🇺 Обход 2 [Банк]
 vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@server3.sywl2live.us:8443?encryption=none&fp=chrome&security=tls&sni=server3.sywl2live.us&type=xhttp&path=%2Fwebsoket&host=server3.sywl2live.us#🇪🇺 Обход 3 [ALL]
-hysteria2://d38b7065-40c9-4ead-9b7a-3ecbd6875060@test3.sywl2live.us:8443?insecure=0&obfs=none&pinSHA256=&sni=test3.sywl2live.us#🇪🇺 Обход 4 [TG, Банк]
+hysteria2://d38b7065-40c9-4ead-9b7a-3ecbd6875060@test3.sywl2live.us:8443?insecure=0&obfs=none&pinSHA256=&sni=test3.sywl2live.us#🇪🇺 Обход 4 [TG, Банк] ⚡️
 hysteria2://d38b7065-40c9-4ead-9b7a-3ecbd6875060@work.sywl2live.us:18241?insecure=0&obfs=none&pinSHA256=&sni=work.sywl2live.us#🇪🇺 Обход 5 [Банк]
 
 vless://2d3e005f-eb6d-4abf-ac84-b9ed2a04df79@89.208.230.117:443?encryption=none&flow=xtls-rprx-vision&fp=qq&pbk=_Fn83OdYDYlE9I4uRlAGkIVQBtOHKjU2Z19fGXzeQEs&security=reality&sni=www.vk.com&type=tcp#🇪🇺 Обход 6 [ALL]
