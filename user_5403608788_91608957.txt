@@ -12,7 +12,7 @@ vless://6873bd65-4443-4a21-9412-e3c287fbeffd@pro-jp.emrata.top:443?encryption=no
 vless://6873bd65-4443-4a21-9412-e3c287fbeffd@pro-us.emrata.top:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=pro-us.emrata.top&fp=firefox&pbk=uY-4wMHFY1pD8SIwHBfcxVRdolB7NAJIWIbYjaG8iw0&type=tcp&headerType=none#🇺🇸 США
 vless://6873bd65-4443-4a21-9412-e3c287fbeffd@pro-tr.emrata.top:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=pro-tr.emrata.top&fp=firefox&pbk=da5UVhoC5QOCDm84AxB-RRxf0z2nySZ3lOemgqizLS4&type=tcp&headerType=none#🇹🇷 Турция
 
-vless://6873bd65-4443-0001-9412-e3c287fbeffd@pro-ru-bridge.emrata.top:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=pro-ru-bridge.emrata.top&fp=firefox&pbk=F8tqvcuJUSVbxv_i9ZsVOef3EPwULzzDqgvmj3vWNlA&type=tcp&headerType=none#🇪🇺 Ютуб без рекламы
+vless://6873bd65-4443-0001-9412-e3c287fbeffd@pro-ru-bridge.emrata.top:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=pro-ru-bridge.emrata.top&fp=firefox&pbk=F8tqvcuJUSVbxv_i9ZsVOef3EPwULzzDqgvmj3vWNlA&type=tcp&headerType=none#🇪🇺 YT no Ads
 
 vless://71a7a190-6063-41eb-911e-43a824e2689d@46.8.208.12:443?mode=stream-one&path=%2Fapi%2Fv1%2Fupdates&security=reality&encryption=none&pbk=oHECREUzbpWmoCfa1fQpn5-QboUqIuCduQZDrwaTpic&host=rbc.ru&fp=qq&type=xhttp&sni=rbc.ru&sid=3f08fd8c#🇳🇱 ⭐️ Спец обход 1?serverDescription=0KPQvdC40LLQtdGA0YHQsNC70YzQvdGL0Lk=
 vless://71a7a190-6063-41eb-911e-43a824e2689d@178.154.210.37:443?security=reality&encryption=none&pbk=mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=64c1fe36c7846400#🇳🇱 Спец обход 2?serverDescription=0JzQtdCz0LDRhNC+0L0sIFlvdGE=
