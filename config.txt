@@ -9,12 +9,6 @@ vless://6873bd65-4443-4a21-9412-e3c287fbeffd@pro-tr.emrata.top:443?encryption=no
 
 vless://6873bd65-4443-0001-9412-e3c287fbeffd@pro-ru-bridge.emrata.top:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=pro-ru-bridge.emrata.top&fp=firefox&pbk=F8tqvcuJUSVbxv_i9ZsVOef3EPwULzzDqgvmj3vWNlA&type=tcp&headerType=none#🇪🇺 Ютуб без рекламы
 
-vless://71a7a190-6063-41eb-911e-43a824e2689d@46.8.208.12:443?mode=stream-one&path=%2Fapi%2Fv1%2Fupdates&security=reality&encryption=none&pbk=oHECREUzbpWmoCfa1fQpn5-QboUqIuCduQZDrwaTpic&host=rbc.ru&fp=qq&type=xhttp&sni=rbc.ru&sid=3f08fd8c#🇳🇱 ⭐️ Спец обход 1?serverDescription=0KPQvdC40LLQtdGA0YHQsNC70YzQvdGL0Lk=
-vless://71a7a190-6063-41eb-911e-43a824e2689d@178.154.210.37:443?security=reality&encryption=none&pbk=mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=64c1fe36c7846400#🇳🇱 Спец обход 2?serverDescription=0JzQtdCz0LDRhNC+0L0sIFlvdGE=
-vless://71a7a190-6063-41eb-911e-43a824e2689d@178.154.210.37:443?security=reality&encryption=none&pbk=mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=sun6-22.userapi.com&sid=93ae75024604f796#🇳🇱 Спец обход 3?serverDescription=0JzQtdCz0LDRhNC+0L0sIFlvdGE=
-vless://71a7a190-6063-41eb-911e-43a824e2689d@158.160.121.171:443?security=reality&encryption=none&pbk=mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=sun6-22.userapi.com&sid=93ae75024604f796#🇳🇱 Спец обход 4?serverDescription=0JHQuNC70LDQudC9
-vless://71a7a190-6063-41eb-911e-43a824e2689d@158.160.121.171:443?security=reality&encryption=none&pbk=mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=93ae75024604f796#🇳🇱 Спец обход 5?serverDescription=0JzQotChLCBURUxFIDI=
-
 vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@78.159.250.116:10443?encryption=none&fp=chrome&pbk=KONaLFa2_5efdUtXz0TDfj8DZf65Lqli1935Mr36DnU&security=reality&sni=max.ru&type=grpc#🇪🇺 Обход 1 [Банк]
 vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@sywl2live.us:443?encryption=none&fp=chrome&pbk=BlwNyV_vGCP421aD6p92qJHR-L3iIOfC6yD2F2asIjc&security=reality&sni=m.vk.ru&sid=21ea8a5c00cd59d8&type=grpc&serviceName=grpc#🇪🇺 Обход 2 [Банк]
 vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@server3.sywl2live.us:8443?encryption=none&fp=chrome&security=tls&sni=server3.sywl2live.us&type=xhttp&path=%2Fwebsoket&host=server3.sywl2live.us#🇪🇺 Обход 3 [ALL]
