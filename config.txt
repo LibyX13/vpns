@@ -1,13 +1,14 @@
-vless://6873bd65-4443-0001-9412-e3c287fbeffd@pro-de.emrata.top:443?encryption=none&flow=&security=reality&sni=pro-de.emrata.top&fp=firefox&pbk=F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I&type=tcp&headerType=none#🇩🇪 Германия ⚡️
-vless://6873bd65-4443-0028-9412-e3c287fbeffd@pro-se.emrata.top:443?encryption=none&flow=&security=reality&sni=pro-se.emrata.top&fp=firefox&pbk=AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk&type=tcp&headerType=none#🇸🇪 Швеция
+vless://6873bd65-4443-0001-9412-e3c287fbeffd@pro-de.emrata.top:443?encryption=none&flow=&security=reality&sni=pro-de.emrata.top&fp=firefox&pbk=F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I&type=tcp&headerType=none#🇩🇪 Германия
+vless://6873bd65-4443-0028-9412-e3c287fbeffd@pro-se.emrata.top:443?encryption=none&flow=&security=reality&sni=pro-se.emrata.top&fp=firefox&pbk=AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk&type=tcp&headerType=none#🇸🇪 Швеция ⚡️
 vless://6873bd65-4443-0032-9412-e3c287fbeffd@pro-uk.emrata.top:443?encryption=none&flow=&security=reality&sni=pro-uk.emrata.top&fp=firefox&pbk=RYnbBzo-UTB4nVMymzJ5B6TgYed7DfOc6O5Pr_htYSc&type=tcp&headerType=none#🇬🇧 Великобритания
-vless://6873bd65-4443-4a21-9412-e3c287fbeffd@pro-fi.emrata.top:753?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.amd.com&fp=firefox&pbk=F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I&type=tcp&headerType=none#🇫🇮 Финляндия ⚡️
+vless://6873bd65-4443-4a21-9412-e3c287fbeffd@pro-fi.emrata.top:753?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.amd.com&fp=firefox&pbk=F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I&type=tcp&headerType=none#🇫🇮 Финляндия
 vless://6873bd65-4443-4a21-9412-e3c287fbeffd@pro-it.emrata.top:443?encryption=none&flow=&security=reality&sni=pro-it.emrata.top&fp=chrome&pbk=F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I&type=tcp&headerType=none#🇮🇹 Италия
 vless://6873bd65-4443-4a21-9412-e3c287fbeffd@pro-jp.emrata.top:443?encryption=none&flow=&security=reality&sni=pro-jp.emrata.top&fp=firefox&pbk=F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I&type=tcp&headerType=none#🇯🇵 Япония
 vless://6873bd65-4443-4a21-9412-e3c287fbeffd@pro-us.emrata.top:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=pro-us.emrata.top&fp=firefox&pbk=uY-4wMHFY1pD8SIwHBfcxVRdolB7NAJIWIbYjaG8iw0&type=tcp&headerType=none#🇺🇸 США
 vless://6873bd65-4443-4a21-9412-e3c287fbeffd@pro-tr.emrata.top:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=pro-tr.emrata.top&fp=firefox&pbk=da5UVhoC5QOCDm84AxB-RRxf0z2nySZ3lOemgqizLS4&type=tcp&headerType=none#🇹🇷 Турция
 
 vless://6873bd65-4443-0001-9412-e3c287fbeffd@pro-ru-bridge.emrata.top:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=pro-ru-bridge.emrata.top&fp=firefox&pbk=F8tqvcuJUSVbxv_i9ZsVOef3EPwULzzDqgvmj3vWNlA&type=tcp&headerType=none#🇪🇺 Ютуб без рекламы
+vless://6873bd65-4443-0001-9412-e3c287fbeffd@pro-ru-bridge.emrata.top:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=pro-ru-bridge.emrata.top&fp=firefox&pbk=F8tqvcuJUSVbxv_i9ZsVOef3EPwULzzDqgvmj3vWNlA&type=tcp&headerType=none#🇪🇺 Discord ⚡️
 
 vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@185.141.227.153:10443?encryption=none&fp=chrome&pbk=KONaLFa2_5efdUtXz0TDfj8DZf65Lqli1935Mr36DnU&security=reality&sni=max.ru&type=grpc#🇷🇺 Белые списки #1 (pro)  | Безлимит
 vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@xxx3.sywl2live.us:10443?encryption=none&fp=chrome&pbk=KONaLFa2_5efdUtXz0TDfj8DZf65Lqli1935Mr36DnU&security=reality&sni=max.ru&type=grpc#🇷🇺 Белые списки #4  | Безлимит
