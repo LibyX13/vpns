@@ -16,14 +16,14 @@ vless://13597032-a497-0032-860a-35e9682ca7ca@pro-de.emrata.top:443?encryption=no
 vless://13597032-a497-0032-860a-35e9682ca7ca@pro-de.emrata.top:443?encryption=none&fp=firefox&pbk=F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I&security=reality&sni=pro-de.emrata.top&type=tcp#🇪🇺 Discord ⚡️
 
 vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@185.141.227.106:10443?encryption=none&fp=chrome&pbk=KONaLFa2_5efdUtXz0TDfj8DZf65Lqli1935Mr36DnU&security=reality&sni=max.ru&type=grpc#🇷🇺 Белые списки АВТО | Безлимит
-vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@151.236.114.144:9443?encryption=none&fp=chrome&pbk=SjXcpS4pWhhsYZVIdjSzRbMqrxOG0WiVWvMzk2s1_ic&security=reality&sid=abcd11&sni=dzen.ru&type=grpc#🇷🇺 Белые списки АВТО | Безлимит
-vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@194.55.239.155:8334?encryption=none&fp=chrome&pbk=nBUckg-GybZqqubeQcCYmEOjajgCDfbckH8SqSN1GHA&security=reality&sid=abcd11&sni=dzen.ru&type=grpc#🇷🇺 Белые списки АВТО | Безлимит
+vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@151.236.114.144:9443?encryption=none&fp=chrome&pbk=SjXcpS4pWhhsYZVIdjSzRbMqrxOG0WiVWvMzk2s1_ic&security=reality&sid=abcd11&sni=m.vk.com&type=grpc#🇷🇺 Белые списки АВТО | Безлимит
+vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@78.159.250.33:8334?encryption=none&fp=chrome&pbk=nBUckg-GybZqqubeQcCYmEOjajgCDfbckH8SqSN1GHA&security=reality&sid=abcd11&sni=m.vk.com&type=grpc#🇷🇺 Белые списки АВТО | Безлимит
 vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@cdn.sywl2live.us:443?encryption=none&security=tls&type=ws#🇷🇺 Белые списки АВТО | Безлимит
 vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@185.141.227.106:10443?encryption=none&fp=chrome&pbk=KONaLFa2_5efdUtXz0TDfj8DZf65Lqli1935Mr36DnU&security=reality&sni=max.ru&type=grpc#🇷🇺 Белые списки #1 (pro) | Безлимит
-vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@151.236.114.144:9443?encryption=none&fp=chrome&pbk=SjXcpS4pWhhsYZVIdjSzRbMqrxOG0WiVWvMzk2s1_ic&security=reality&sid=abcd11&sni=dzen.ru&type=grpc#🇷🇺 Белые списки #5 (pro) | Безлимит
-vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@194.55.239.155:8334?encryption=none&fp=chrome&pbk=nBUckg-GybZqqubeQcCYmEOjajgCDfbckH8SqSN1GHA&security=reality&sid=abcd11&sni=dzen.ru&type=grpc#🇷🇺 Белые списки #3 (pro) | Безлимит
-vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@cdn.sywl2live.us:443?encryption=none&security=tls&type=ws#🇷🇺 Белые списки #1 | Безлимит
+vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@78.159.250.33:8334?encryption=none&fp=chrome&pbk=nBUckg-GybZqqubeQcCYmEOjajgCDfbckH8SqSN1GHA&security=reality&sid=abcd11&sni=m.vk.com&type=grpc#🇷🇺 Белые списки #3 (pro) | Безлимит
 vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@185.141.227.106:9443?encryption=none&fp=chrome&pbk=cjLqnMfUlCEnGbKJT3v8wPgv81SLR1Pxq76HxrivUG8&security=reality&sid=afde73&sni=id.vk.com&type=grpc#🇷🇺 Белые списки #4 (pro) | Безлимит
+vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@151.236.114.144:9443?encryption=none&fp=chrome&pbk=SjXcpS4pWhhsYZVIdjSzRbMqrxOG0WiVWvMzk2s1_ic&security=reality&sid=abcd11&sni=m.vk.com&type=grpc#🇷🇺 Белые списки #5 (pro) | Безлимит
+vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@cdn.sywl2live.us:443?encryption=none&security=tls&type=ws#🇷🇺 Белые списки #1 | Безлимит
 vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@185.141.227.77:443?encryption=none&flow=xtls-rprx-vision&fp=edge&pbk=5wtQ7xGxk4_2sT65o-YA9lH8llX2dJ7cTM7iUka4tgI&security=reality&sid=7153d688a1a30573&sni=dzen.ru&type=tcp#🇷🇺 Белые списки #2 | Безлимит
 vless://220b78c0-a46d-4142-9178-4d541921239d@87.228.101.60:8443?encryption=none&fp=chrome&pbk=FEZxW4Sk_JJ3fsOlYLwB9QytD7vTxcgZ2Wh6MBBDO1A&security=reality&sid=abcd11&sni=dzen.ru&type=grpc#🇷🇺 Белые списки #1 | Лимитный трафик
 vless://220b78c0-a46d-4142-9178-4d541921239d@87.228.101.60:9443?encryption=none&fp=chrome&pbk=Q88U81dJUpIkNFv3XfK9v1k6bIdtNz9tWU0yM6QbiTE&security=reality&sid=afde73&sni=id.vk.com&type=grpc#🇷🇺 Белые списки #2 | Лимитный трафик
