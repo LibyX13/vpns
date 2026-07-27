@@ -3,6 +3,12 @@
 #profile-update-interval: 1
 #profile-web-page-url: https://t.me/wlbasevpn_bot
 #announce: ⚠️ Для обхода белых списков используйте сервера обходов в конце вашей подписки.
+
+vless://00000000-0000-0000-0000-000000000000@0.0.0.0:443?type=tcp&security=reality&pbk=ZXZleXRoaW5nX2lzX2Zha2VfZm9yX3RleHRfOTk5OTk&sid=00000000&fp=chrome&sni=example.com#⛔ОСТАЛОСЬ 6 ЧАСОВ
+vless://00000000-0000-0000-0000-000000000000@0.0.0.0:443?type=tcp&security=reality&pbk=ZXZleXRoaW5nX2lzX2Zha2VfZm9yX3RleHRfOTk5OTk&sid=00000000&fp=chrome&sni=example.com#ИНСТРУКЦИЯ В БОТЕ
+vless://00000000-0000-0000-0000-000000000000@0.0.0.0:443?type=tcp&security=reality&pbk=ZXZleXRoaW5nX2lzX2Zha2VfZm9yX3RleHRfOTk5OTk&sid=00000000&fp=chrome&sni=example.com#@wlbasevpn_bot
+vless://00000000-0000-0000-0000-000000000000@0.0.0.0:443?type=tcp&security=reality&pbk=ZXZleXRoaW5nX2lzX2Zha2VfZm9yX3RleHRfOTk5OTk&sid=00000000&fp=chrome&sni=example.com#⛔⛔⛔⛔⛔
+
 vless://13597032-a497-424b-860a-35e9682ca7ca@pro-de.emrata.top:443?encryption=none&fp=firefox&pbk=F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I&security=reality&sni=pro-de.emrata.top&type=tcp#🇩🇪 Германия ⚡️
 vless://13597032-a497-424b-860a-35e9682ca7ca@pro-se.emrata.top:443?encryption=none&fp=firefox&pbk=AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk&security=reality&sni=pro-se.emrata.top&type=tcp#🇸🇪 Швеция ⚡️
 vless://13597032-a497-424b-860a-35e9682ca7ca@pro-fi.emrata.top:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I&security=reality&sni=pro-fi.emrata.top&type=tcp#🇫🇮 Финляндия
