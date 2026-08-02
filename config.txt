@@ -14,9 +14,8 @@ vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@185.141.227.106:10443?encryption=no
 vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@185.141.227.106:9443?encryption=none&fp=chrome&pbk=cjLqnMfUlCEnGbKJT3v8wPgv81SLR1Pxq76HxrivUG8&security=reality&sid=afde73&sni=id.vk.com&type=grpc#🇷🇺 Обход АВТО 3 | Безлимит
 vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@185.141.227.77:443?encryption=none&flow=xtls-rprx-vision&fp=edge&pbk=5wtQ7xGxk4_2sT65o-YA9lH8llX2dJ7cTM7iUka4tgI&security=reality&sid=7153d688a1a30573&sni=dzen.ru&type=tcp#🇷🇺 Обход АВТО 4 | Безлимит
 vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@cdn2.syny.org:443?encryption=none&security=tls&type=ws#🇷🇺 Обход #2 (ultra) | Безлимит
-vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@cdn.sywl2live.us:443?encryption=none&security=tls&type=ws#🇷🇺 Обход #1  (ultra) | Безлимит
+vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@cdn.sywl2live.us:443?encryption=none&security=tls&type=ws#🇷🇺 Обход #1 (ultra) | Безлимит
 vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@185.141.227.106:10443?encryption=none&fp=chrome&pbk=KONaLFa2_5efdUtXz0TDfj8DZf65Lqli1935Mr36DnU&security=reality&sni=max.ru&type=grpc#🇷🇺 Обход #1 (pro) | Безлимит
-vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@78.159.247.253:18443?encryption=none&fp=chrome&pbk=6rLl9bYr5hfLxqXck_Xjib0GztwsPo_LE4wLsN3S6Ss&security=reality&sid=abde42&sni=yandex.ru&type=grpc#🇷🇺 Обход #3 (pro) | Безлимит
 vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@185.141.227.106:9443?encryption=none&fp=chrome&pbk=cjLqnMfUlCEnGbKJT3v8wPgv81SLR1Pxq76HxrivUG8&security=reality&sid=afde73&sni=id.vk.com&type=grpc#🇷🇺 Обход #4 (pro) | Безлимит
 vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@185.141.227.77:443?encryption=none&flow=xtls-rprx-vision&fp=edge&pbk=5wtQ7xGxk4_2sT65o-YA9lH8llX2dJ7cTM7iUka4tgI&security=reality&sid=7153d688a1a30573&sni=dzen.ru&type=tcp#🇷🇺 Обход #2 | Безлимит
 vless://220b78c0-a46d-4142-9178-4d541921239d@46.254.17.22:41287?encryption=none&fp=edge&pbk=H8K-T_FM2Sfncnh765nNOGa9NJJv5mCsBBHyT-EmuBg&security=reality&sid=e30a1b7c&sni=dzen.ru&type=xhttp#🇷🇺 Обход #1 | Лимитный трафик
