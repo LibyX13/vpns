@@ -2,5 +2,7 @@
 
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1?encryption=none&security=reality&sni=0.0.0.0&fp=firefox&pbk=0000000000000000000000000000000000000000000&type=tcp#Подписка неактивна
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1?encryption=none&security=reality&sni=0.0.0.0&fp=chrome&pbk=0000000000000000000000000000000000000000000&type=tcp#@wlbasevpn_bot
+vless://13597032-a497-424b-860a-35e9682ca7ca@pro-de.emrata.top:443?encryption=none&fp=firefox&pbk=F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I&security=reality&sni=pro-de.emrata.top&type=tcp#🇩🇪 Германия ⚡️
+vless://13597032-a497-424b-860a-35e9682ca7ca@pro-se.emrata.top:443?encryption=none&fp=firefox&pbk=AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk&security=reality&sni=pro-se.emrata.top&type=tcp#🇸🇪 Швеция⚡️
 
 Для восстановления доступа продлите подписку командой /vpn
