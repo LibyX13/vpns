@@ -1,11 +1,9 @@
 vless://13597032-a497-424b-860a-35e9682ca7ca@boldheron.download:443?encryption=none&fp=firefox&pbk=F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I&security=reality&sni=boldheron.download&type=tcp#🇩🇪 Германия ⚡️
 vless://13597032-a497-424b-860a-35e9682ca7ca@quietfalcon.download:443?encryption=none&fp=firefox&pbk=AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk&security=reality&sni=quietfalcon.download&type=tcp#🇸🇪 Швеция
-vless://13597032-a497-424b-860a-35e9682ca7ca@brightharbor.download:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I&security=reality&sni=brightharbor.download&type=tcp#🇫🇮 Финляндия
 vless://13597032-a497-424b-860a-35e9682ca7ca@steadyanchor.download:443?encryption=none&fp=firefox&pbk=RYnbBzo-UTB4nVMymzJ5B6TgYed7DfOc6O5Pr_htYSc&security=reality&sni=steadyanchor.download&type=tcp#🇬🇧 Великобритания
 vless://13597032-a497-424b-860a-35e9682ca7ca@calmcedar.download:443?encryption=none&fp=chrome&pbk=F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I&security=reality&sni=calmcedar.download&type=tcp#🇮🇹 Италия
 vless://13597032-a497-424b-860a-35e9682ca7ca@freshjuniper.download:443?encryption=none&fp=firefox&pbk=F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I&security=reality&sni=freshjuniper.download&type=tcp#🇯🇵 Япония
 vless://13597032-a497-424b-860a-35e9682ca7ca@keenbadger.download:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=F8tqvcuJUSVbxv_i9ZsVOef3EPwULzzDqgvmj3vWNlA&security=reality&sni=keenbadger.download&type=tcp#🇷🇺 Россия
-vless://13597032-a497-424b-860a-35e9682ca7ca@swiftotter.download:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=uY-4wMHFY1pD8SIwHBfcxVRdolB7NAJIWIbYjaG8iw0&security=reality&sni=swiftotter.download&type=tcp#🇺🇸 США
 vless://13597032-a497-424b-860a-35e9682ca7ca@silentgrove.download:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=da5UVhoC5QOCDm84AxB-RRxf0z2nySZ3lOemgqizLS4&security=reality&sni=silentgrove.download&type=tcp#🇹🇷 Турция
 vless://13597032-a497-0032-860a-35e9682ca7ca@boldheron.download:443?encryption=none&fp=firefox&pbk=F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I&security=reality&sni=boldheron.download&type=tcp#YouTube (Глобальный)
 
