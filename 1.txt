@@ -1,21 +1,279 @@
-vless://13597032-a497-424b-860a-35e9682ca7ca@boldheron.download:443?encryption=none&fp=firefox&pbk=F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I&security=reality&sni=boldheron.download&type=tcp#🇩🇪 Германия
-vless://13597032-a497-424b-860a-35e9682ca7ca@quietfalcon.download:443?encryption=none&fp=firefox&pbk=AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk&security=reality&sni=quietfalcon.download&type=tcp#🇸🇪 Швеция
-vless://13597032-a497-424b-860a-35e9682ca7ca@steadyanchor.download:443?encryption=none&fp=firefox&pbk=RYnbBzo-UTB4nVMymzJ5B6TgYed7DfOc6O5Pr_htYSc&security=reality&sni=steadyanchor.download&type=tcp#🇬🇧 Великобритания
-vless://13597032-a497-424b-860a-35e9682ca7ca@calmcedar.download:443?encryption=none&fp=chrome&pbk=F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I&security=reality&sni=calmcedar.download&type=tcp#🇮🇹 Италия
-vless://13597032-a497-424b-860a-35e9682ca7ca@freshjuniper.download:443?encryption=none&fp=firefox&pbk=F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I&security=reality&sni=freshjuniper.download&type=tcp#🇯🇵 Япония
-vless://13597032-a497-424b-860a-35e9682ca7ca@keenbadger.download:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=F8tqvcuJUSVbxv_i9ZsVOef3EPwULzzDqgvmj3vWNlA&security=reality&sni=keenbadger.download&type=tcp#🇷🇺 Россия
-vless://13597032-a497-424b-860a-35e9682ca7ca@silentgrove.download:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=da5UVhoC5QOCDm84AxB-RRxf0z2nySZ3lOemgqizLS4&security=reality&sni=silentgrove.download&type=tcp#🇹🇷 Турция
-vless://13597032-a497-0032-860a-35e9682ca7ca@boldheron.download:443?encryption=none&fp=firefox&pbk=F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I&security=reality&sni=boldheron.download&type=tcp#YouTube (Глобальный)
-vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@cdn2.syny.org:443?encryption=none&security=tls&type=ws#🇷🇺 Обход АВТО 1 | Безлимит
-vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@cdn.sywl2live.us:443?encryption=none&security=tls&type=ws#🇷🇺 Обход АВТО 2 | Безлимит
-vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@185.141.227.106:10443?encryption=none&fp=chrome&pbk=KONaLFa2_5efdUtXz0TDfj8DZf65Lqli1935Mr36DnU&security=reality&sni=max.ru&type=grpc#🇷🇺 Обход АВТО 3 | Безлимит
-vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@185.141.227.106:9443?encryption=none&fp=chrome&pbk=cjLqnMfUlCEnGbKJT3v8wPgv81SLR1Pxq76HxrivUG8&security=reality&sid=afde73&sni=://vk.com&type=grpc#🇷🇺 Обход АВТО 4 | Безлимит
-vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@185.141.227.77:443?encryption=none&flow=xtls-rprx-vision&fp=edge&pbk=5wtQ7xGxk4_2sT65o-YA9lH8llX2dJ7cTM7iUka4tgI&security=reality&sid=7153d688a1a30573&sni=dzen.ru&type=tcp#🇷🇺 Обход АВТО 5 | Безлимит
-vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@cdn2.syny.org:443?encryption=none&security=tls&type=ws#🇷🇺 Обход #1 (ultra) | Безлимит
-vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@cdn.sywl2live.us:443?encryption=none&security=tls&type=ws#🇷🇺 Обход #2 (ultra) | Безлимит
-vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@185.141.227.106:10443?encryption=none&fp=chrome&pbk=KONaLFa2_5efdUtXz0TDfj8DZf65Lqli1935Mr36DnU&security=reality&sni=max.ru&type=grpc#🇷🇺 Обход #2 (pro) | Безлимит
-vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@185.141.227.106:9443?encryption=none&fp=chrome&pbk=cjLqnMfUlCEnGbKJT3v8wPgv81SLR1Pxq76HxrivUG8&security=reality&sid=afde73&sni=://vk.com&type=grpc#🇷🇺 Обход #3 (pro) | Безлимит
-vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@185.141.227.77:443?encryption=none&flow=xtls-rprx-vision&fp=edge&pbk=5wtQ7xGxk4_2sT65o-YA9lH8llX2dJ7cTM7iUka4tgI&security=reality&sid=7153d688a1a30573&sni=dzen.ru&type=tcp#🇷🇺 Обход #1 | Безлимит
-vless://220b78c0-a46d-4142-9178-4d541921239d@46.254.17.22:41287?encryption=none&fp=edge&pbk=H8K-T_FM2Sfncnh765nNOGa9NJJv5mCsBBHyT-EmuBg&security=reality&sid=e30a1b7c&sni=dzen.ru&type=xhttp#🇷🇺 Обход #1 | Лимитный трафик
-vless://220b78c0-a46d-4142-9178-4d541921239d@46.254.17.22:52619?encryption=none&fp=edge&pbk=bpk8KIHVs6fHt9QCqEy60SZnJhERiWYZ9xpJbZM_h3Q&security=reality&sid=5f2d9048&sni=api-maps.yandex.ru&type=xhttp#🇷🇺 Обход #2 | Лимитный трафик
-vless://220b78c0-a46d-4142-9178-4d541921239d@46.254.17.22:38473?encryption=none&fp=firefox&pbk=gYFN-5JoGsFZNbXLisyPcwVO5WPDTXzWlSM0PoLyNVc&security=reality&sid=b83c61ae&sni=rutube.ru&type=xhttp#🇷🇺 Обход #3 | Лимитный трафик
+proxies:
+  - name: "🇩🇪 Германия"
+    type: vless
+    server: boldheron.download
+    port: 443
+    uuid: 13597032-a497-424b-860a-35e9682ca7ca
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: boldheron.download
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+
+  - name: "🇸🇪 Швеция"
+    type: vless
+    server: quietfalcon.download
+    port: 443
+    uuid: 13597032-a497-424b-860a-35e9682ca7ca
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: quietfalcon.download
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
+
+  - name: "🇬🇧 Великобритания"
+    type: vless
+    server: steadyanchor.download
+    port: 443
+    uuid: 13597032-a497-424b-860a-35e9682ca7ca
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: steadyanchor.download
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: RYnbBzo-UTB4nVMymzJ5B6TgYed7DfOc6O5Pr_htYSc
+
+  - name: "🇮🇹 Италия"
+    type: vless
+    server: calmcedar.download
+    port: 443
+    uuid: 13597032-a497-424b-860a-35e9682ca7ca
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: calmcedar.download
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+
+  - name: "🇯🇵 Япония"
+    type: vless
+    server: freshjuniper.download
+    port: 443
+    uuid: 13597032-a497-424b-860a-35e9682ca7ca
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: freshjuniper.download
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+
+  - name: "🇷🇺 Россия"
+    type: vless
+    server: keenbadger.download
+    port: 443
+    uuid: 13597032-a497-424b-860a-35e9682ca7ca
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: keenbadger.download
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: F8tqvcuJUSVbxv_i9ZsVOef3EPwULzzDqgvmj3vWNlA
+
+  - name: "🇹🇷 Турция"
+    type: vless
+    server: silentgrove.download
+    port: 443
+    uuid: 13597032-a497-424b-860a-35e9682ca7ca
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: silentgrove.download
+    flow: xtls-rprx-vision
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: da5UVhoC5QOCDm84AxB-RRxf0z2nySZ3lOemgqizLS4
+
+  - name: "YouTube (Глобальный)"
+    type: vless
+    server: boldheron.download
+    port: 443
+    uuid: 13597032-a497-0032-860a-35e9682ca7ca
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: boldheron.download
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+
+  - name: "🇷🇺 Обход АВТО 1 | Безлимит"
+    type: vless
+    server: cdn2.syny.org
+    port: 443
+    uuid: d38b7065-40c9-4ead-9b7a-3ecbd6875060
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    network: ws
+
+  - name: "🇷🇺 Обход АВТО 2 | Безлимит"
+    type: vless
+    server: cdn.sywl2live.us
+    port: 443
+    uuid: d38b7065-40c9-4ead-9b7a-3ecbd6875060
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    network: ws
+
+  - name: "🇷🇺 Обход АВТО 3 | Безлимит"
+    type: vless
+    server: 185.141.227.106
+    port: 10443
+    uuid: d38b7065-40c9-4ead-9b7a-3ecbd6875060
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: max.ru
+    client-fingerprint: chrome
+    network: grpc
+    reality-opts:
+      public-key: KONaLFa2_5efdUtXz0TDfj8DZf65Lqli1935Mr36DnU
+
+  - name: "🇷🇺 Обход АВТО 4 | Безлимит"
+    type: vless
+    server: 185.141.227.106
+    port: 9443
+    uuid: d38b7065-40c9-4ead-9b7a-3ecbd6875060
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: id.vk.com
+    client-fingerprint: chrome
+    network: grpc
+    reality-opts:
+      public-key: cjLqnMfUlCEnGbKJT3v8wPgv81SLR1Pxq76HxrivUG8
+      short-id: afde73
+
+  - name: "🇷🇺 Обход АВТО 5 | Безлимит"
+    type: vless
+    server: 185.141.227.77
+    port: 443
+    uuid: d38b7065-40c9-4ead-9b7a-3ecbd6875060
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: dzen.ru
+    flow: xtls-rprx-vision
+    client-fingerprint: edge
+    reality-opts:
+      public-key: 5wtQ7xGxk4_2sT65o-YA9lH8llX2dJ7cTM7iUka4tgI
+      short-id: 7153d688a1a30573
+
+  - name: "🇷🇺 Обход #1 (ultra) | Безлимит"
+    type: vless
+    server: cdn2.syny.org
+    port: 443
+    uuid: d38b7065-40c9-4ead-9b7a-3ecbd6875060
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    network: ws
+
+  - name: "🇷🇺 Обход #2 (ultra) | Безлимит"
+    type: vless
+    server: cdn.sywl2live.us
+    port: 443
+    uuid: d38b7065-40c9-4ead-9b7a-3ecbd6875060
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    network: ws
+
+  - name: "🇷🇺 Обход #2 (pro) | Безлимит"
+    type: vless
+    server: 185.141.227.106
+    port: 10443
+    uuid: d38b7065-40c9-4ead-9b7a-3ecbd6875060
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: max.ru
+    client-fingerprint: chrome
+    network: grpc
+    reality-opts:
+      public-key: KONaLFa2_5efdUtXz0TDfj8DZf65Lqli1935Mr36DnU
+
+  - name: "🇷🇺 Обход #3 (pro) | Безлимит"
+    type: vless
+    server: 185.141.227.106
+    port: 9443
+    uuid: d38b7065-40c9-4ead-9b7a-3ecbd6875060
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: id.vk.com
+    client-fingerprint: chrome
+    network: grpc
+    reality-opts:
+      public-key: cjLqnMfUlCEnGbKJT3v8wPgv81SLR1Pxq76HxrivUG8
+      short-id: afde73
+
+  - name: "🇷🇺 Обход #1 | Безлимит"
+    type: vless
+    server: 185.141.227.77
+    port: 443
+    uuid: d38b7065-40c9-4ead-9b7a-3ecbd6875060
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: dzen.ru
+    flow: xtls-rprx-vision
+    client-fingerprint: edge
+    reality-opts:
+      public-key: 5wtQ7xGxk4_2sT65o-YA9lH8llX2dJ7cTM7iUka4tgI
+      short-id: 7153d688a1a30573
+
+  - name: "🇷🇺 Обход #1 | Лимитный трафик"
+    type: vless
+    server: 46.254.17.22
+    port: 41287
+    uuid: 220b78c0-a46d-4142-9178-4d541921239d
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: dzen.ru
+    client-fingerprint: edge
+    network: xhttp
+    reality-opts:
+      public-key: H8K-T_FM2Sfncnh765nNOGa9NJJv5mCsBBHyT-EmuBg
+      short-id: e30a1b7c
+
+  - name: "🇷🇺 Обход #2 | Лимитный трафик"
+    type: vless
+    server: 46.254.17.22
+    port: 52619
+    uuid: 220b78c0-a46d-4142-9178-4d541921239d
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: api-maps.yandex.ru
+    client-fingerprint: edge
+    network: xhttp
+    reality-opts:
+      public-key: bpk8KIHVs6fHt9QCqEy60SZnJhERiWYZ9xpJbZM_h3Q
+      short-id: 5f2d9048
+
+  - name: "🇷🇺 Обход #3 | Лимитный трафик"
+    type: vless
+    server: 46.254.17.22
+    port: 38473
+    uuid: 220b78c0-a46d-4142-9178-4d541921239d
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: rutube.ru
+    client-fingerprint: firefox
+    network: xhttp
+    reality-opts:
+      public-key: gYFN-5JoGsFZNbXLisyPcwVO5WPDTXzWlSM0PoLyNVc
+      short-id: b83c61ae
