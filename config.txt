@@ -10,13 +10,14 @@ vless://13597032-a497-0032-860a-35e9682ca7ca@boldheron.download:443?encryption=n
 
 vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@cdn2.syny.org:443?encryption=none&security=tls&type=ws#🇷🇺 Обход АВТО 1 | Безлимит
 vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@cdn.sywl2live.us:443?encryption=none&security=tls&type=ws#🇷🇺 Обход АВТО 2 | Безлимит
-vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@185.141.227.106:10443?encryption=none&fp=chrome&pbk=KONaLFa2_5efdUtXz0TDfj8DZf65Lqli1935Mr36DnU&security=reality&sni=max.ru&type=grpc#🇷🇺 Обход АВТО 3 | Безлимит
-vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@185.141.227.106:9443?encryption=none&fp=chrome&pbk=cjLqnMfUlCEnGbKJT3v8wPgv81SLR1Pxq76HxrivUG8&security=reality&sid=afde73&sni=id.vk.com&type=grpc#🇷🇺 Обход АВТО 4 | Безлимит
+vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@217.19.122.43:10443?encryption=none&fp=chrome&pbk=KONaLFa2_5efdUtXz0TDfj8DZf65Lqli1935Mr36DnU&security=reality&sni=max.ru&type=grpc#🇷🇺 Обход АВТО 3 | Безлимит
+vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@217.19.122.43:9443?encryption=none&fp=chrome&pbk=cjLqnMfUlCEnGbKJT3v8wPgv81SLR1Pxq76HxrivUG8&security=reality&sid=afde73&sni=id.vk.com&type=grpc#🇷🇺 Обход АВТО 4 | Безлимит
 vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@185.141.227.77:443?encryption=none&flow=xtls-rprx-vision&fp=edge&pbk=5wtQ7xGxk4_2sT65o-YA9lH8llX2dJ7cTM7iUka4tgI&security=reality&sid=7153d688a1a30573&sni=dzen.ru&type=tcp#🇷🇺 Обход АВТО 5 | Безлимит
 vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@cdn2.syny.org:443?encryption=none&security=tls&type=ws#🇷🇺 Обход #1 (ultra) | Безлимит
 vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@cdn.sywl2live.us:443?encryption=none&security=tls&type=ws#🇷🇺 Обход #2 (ultra) | Безлимит
-vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@185.141.227.106:10443?encryption=none&fp=chrome&pbk=KONaLFa2_5efdUtXz0TDfj8DZf65Lqli1935Mr36DnU&security=reality&sni=max.ru&type=grpc#🇷🇺 Обход #2 (pro) | Безлимит
-vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@185.141.227.106:9443?encryption=none&fp=chrome&pbk=cjLqnMfUlCEnGbKJT3v8wPgv81SLR1Pxq76HxrivUG8&security=reality&sid=afde73&sni=id.vk.com&type=grpc#🇷🇺 Обход #3 (pro) | Безлимит
+vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@217.19.122.106:8443?encryption=none&fp=chrome&pbk=AcUbq_43jibiAlNiXoKYRGP58kHpaOx4Sk_ElK4xmH4&security=reality&sni=api-maps.yandex.ru&type=grpc#🇷🇺 Обход #1 (pro) | Безлимит
+vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@217.19.122.43:10443?encryption=none&fp=chrome&pbk=KONaLFa2_5efdUtXz0TDfj8DZf65Lqli1935Mr36DnU&security=reality&sni=max.ru&type=grpc#🇷🇺 Обход #2 (pro) | Безлимит
+vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@217.19.122.43:9443?encryption=none&fp=chrome&pbk=cjLqnMfUlCEnGbKJT3v8wPgv81SLR1Pxq76HxrivUG8&security=reality&sid=afde73&sni=id.vk.com&type=grpc#🇷🇺 Обход #3 (pro) | Безлимит
 vless://d38b7065-40c9-4ead-9b7a-3ecbd6875060@185.141.227.77:443?encryption=none&flow=xtls-rprx-vision&fp=edge&pbk=5wtQ7xGxk4_2sT65o-YA9lH8llX2dJ7cTM7iUka4tgI&security=reality&sid=7153d688a1a30573&sni=dzen.ru&type=tcp#🇷🇺 Обход #1 | Безлимит
 vless://220b78c0-a46d-4142-9178-4d541921239d@46.254.17.22:41287?encryption=none&fp=edge&pbk=H8K-T_FM2Sfncnh765nNOGa9NJJv5mCsBBHyT-EmuBg&security=reality&sid=e30a1b7c&sni=dzen.ru&type=xhttp#🇷🇺 Обход #1 | Лимитный трафик
 vless://220b78c0-a46d-4142-9178-4d541921239d@46.254.17.22:52619?encryption=none&fp=edge&pbk=bpk8KIHVs6fHt9QCqEy60SZnJhERiWYZ9xpJbZM_h3Q&security=reality&sid=5f2d9048&sni=api-maps.yandex.ru&type=xhttp#🇷🇺 Обход #2 | Лимитный трафик
