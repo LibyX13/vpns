@@ -2,7 +2,12 @@
 #subscription-userinfo: upload=0; download=0; total=0; expire=1789541867
 #profile-update-interval: 1
 #profile-web-page-url: https://t.me/wlbasevpn_bot
-#announce: ⚠️ Для обхода белых списков используйте сервера обходов в конце вашей подписки.
+#announce: ❌❌❌ Подписка устарела! Обновите подписку в боте @wlbasevpn_bot по команде /vpn > ссылка. Подписка удалится 08.09.26
+vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1?encryption=none&security=reality&sni=0.0.0.0&fp=firefox&pbk=0000000000000000000000000000000000000000000&type=tcp#Подписка устарела
+vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1?encryption=none&security=reality&sni=0.0.0.0&fp=firefox&pbk=0000000000000000000000000000000000000000000&type=tcp#Обновите подписку в боте
+vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1?encryption=none&security=reality&sni=0.0.0.0&fp=firefox&pbk=0000000000000000000000000000000000000000000&type=tcp#@wlbasevpn_bot
+
+
 vless://2d3e005f-eb6d-4abf-ac84-b9ed2a04df79@82.202.159.153:443?encryption=none&flow=xtls-rprx-vision&fp=QQ&pbk=vUqDEx0U33StHVKNQz11H_FsuwVmfqwUZlRNv0zmvzY&security=reality&sid=a7f3c91e2b6d0485&sni=profitscheck.com&type=tcp#🇪🇺 Авто | Самый быстрый 1
 vless://2d3e005f-eb6d-4abf-ac84-b9ed2a04df79@213.171.26.170:443?encryption=none&flow=xtls-rprx-vision&fp=QQ&pbk=vUqDEx0U33StHVKNQz11H_FsuwVmfqwUZlRNv0zmvzY&security=reality&sid=a7f3c91e2b6d0485&sni=profitscheck.com&type=tcp#🇪🇺 Авто | Самый быстрый 2
 vless://2d3e005f-eb6d-4abf-ac84-b9ed2a04df79@62.233.43.26:443?encryption=none&flow=xtls-rprx-vision&fp=QQ&pbk=vUqDEx0U33StHVKNQz11H_FsuwVmfqwUZlRNv0zmvzY&security=reality&sid=a7f3c91e2b6d0485&sni=profitscheck.com&type=tcp#🇪🇺 Авто | Самый быстрый 3
