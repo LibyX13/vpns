@@ -1,8 +1,0 @@
-#profile-title: WL VPN
-#subscription-userinfo: upload=0; download=0; total=0;
-#profile-update-interval: 1
-#profile-web-page-url: https://t.me/wlbasevpn_bot
-#announce: ❌❌❌ Подписка устарела! Обновите подписку в боте @wlbasevpn_bot по команде /vpn > ссылка. Подписка удалится 08.09.26
-vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1?encryption=none&security=reality&sni=0.0.0.0&fp=firefox&pbk=0000000000000000000000000000000000000000000&type=tcp#Подписка устарела
-vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1?encryption=none&security=reality&sni=0.0.0.0&fp=firefox&pbk=0000000000000000000000000000000000000000000&type=tcp#Обновите подписку в боте
-vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1?encryption=none&security=reality&sni=0.0.0.0&fp=firefox&pbk=0000000000000000000000000000000000000000000&type=tcp#@wlbasevpn_bot
