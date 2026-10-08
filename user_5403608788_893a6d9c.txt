@@ -1,5 +1,18 @@
 [
   {
+    "burstObservatory": {
+      "pingConfig": {
+        "connectivity": "",
+        "destination": "https://www.google.com/generate_204",
+        "httpMethod": "HEAD",
+        "interval": "1m",
+        "sampling": 2,
+        "timeout": "5s"
+      },
+      "subjectSelector": [
+        "bal-3-"
+      ]
+    },
     "dns": {
       "queryStrategy": "UseIP",
       "servers": [
@@ -47,15 +60,50 @@
     "outbounds": [
       {
         "protocol": "vless",
-        "tag": "proxy",
+        "settings": {
+          "address": "78.17.10.166",
+          "encryption": "none",
+          "id": "14e09867-530b-46be-8791-008c58a88b07",
+          "level": 8,
+          "port": 24564
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": "ou3E3K776k-3oqix7kSlLUfP1-1kqlyFjnCmUjqDSMV3keeiCtHnGm10q6bVXTJOrzCoMjiOhnRk5fNCEu0lJj_8PU4iLWXwF8r9c-pJ4CQ4ED8JKiQ_-2B3PSwMM4FinMMfyAQT_oavw_6vsDrSgtOYIGxoSScJfEKcB4D9jt43gHVnOH21cnTLiVJ2VfHusWILRI6jq-f5B-Li3Gjx-0CNFa1trZkiDsX6T0grLBGDiEZsTpHz2ylfzZTutr385D0DzL8ANxLlkqRD0Rg_XdvSTvoeBEOzhFQ30yrP4EtsEVmo3qICBCkH5UytQre8x89gpjKAbKA0FbAHwWDTvprKjodhjN3faowecVJUEtolCFrbxi2lPLtTgHG-N1guKwhXx8Fly4dx8FQlzNAwpdYwUQo0QgJ4FlGyxmE7jxcvhszXa47fwWRIbxHq_7P94vxhwRVUIdMUxpjB-YRlsmcnqcLtVmGNQQQ5qzJpl9N9ewJ2SmjyyOZQkntkeJ2HbnCPOnMeeNozxUUf2MiVsmqQ4JciYtCarq0Kk9N-pe_1ws7ZP_CTXF4KEM3CkqWqJTgBTZ2XX_-0T4pU0RQy-rEdm2TPdkEnPo6qqvWQPZNJ3-j6x5Q-t_g_uSUFm_Ak5hpKv0C2hm9KyQjXSX38fEdQ2xwKSmkWDbX6UyfAVz5Clzc-YDNKVPmkWTesF-LDK_wzKgLFu5HY4mJSIYvDZ5xoARjqXpsHgUpvbTSIo57zjFGLUFCY4zW_8iGbti7NXRC_NOuYtiASwTyyDRowffbx3lX1jpytiHy2M8185bl68hQcecGbocm8vGPzAI1ZO4dY5KTUBIz9_feewAnyo_5bgfQeT3QiJh2ejFr-39FSovn_Z6qhxDxC6Ugdu5zI8Peh2KxfL3njtRzpDgohqvy2AHjDQbf--Wu4wyBlJjJKrtcN2t7JlSP412wU9A5KljFgAxoXIf5tCKgUtTDpB072wpRIPZAoBuX_0Em9uUvxf40DnQPywlFGVfZE0gRkS-VFOUssNiKuKJnnOTtNDpee6enT_VqZANL9yxq5f7N976wDbou8gQiO8FFTz-Rrc1IzgadqP9zsSISchLQ_xXIiCBNkbVWKq2IhTajGnVHFPSUY28IodQhUFW1zdkAnTh7Q7f40MK8j4G0KcQpB7x12KNiXzYXz51fRLAwLv9vFu9H7TrwNBVy_1ae-yYyxccPi_nxX6IF_3mJPMsjaJPOvzduc8w64Hw9VtD8m23dS3DpouwQlgb9AHlln3h9tdEoVvJrHbui-rtjbUUi_ZZcvHHJCOQHg1-9EkIo1xRaTw9ySgf8klGGuAFS4nnd2MeYTrk4Et7I-c7yKzpWT5eMA8p_CtqTVN0lzZ2fKL8Zw0bKRKie3u43x5ECeO_M94ep8zKpYqeRyvgd-Ewy9ROmE3gB-DOdxA5Qcs2iawo1yOKbl-mbObQW9V-kQiP4hfHM7onaijwsu_vXaUnNdOT_jHWmWqXfGjo5ndnfZ7Ju-HZngo3vCte0o8_A8l-bkWORzL0JtAmIAl1ii5VMoYVVdRUdU5VUXtvjO278GKx_xvj_yf6mVg9tP_KtNP0518y1mMY5-iRrmif37vjOaYh96OCIwA9k-_2bm8h-F4sbCeA8j-g5h8OZcHfGMUfYQc6dAhaPC8Mbc62PM3hB7FV435ajpP0vSsyGHqgxHx-le9XYYe8uYBus6mVf24vxcq6m3kiydOvxgQTZgEMyl93kk31bM9_ZOCd6J7PxnULQcDgyZWUvbqKT0Qt8qrifEq7wbeuzKnP1eionCz01GaENFHprj2H-cWVPCKyAWrGXR9WIAYgJeUirecbrjKtmmLb1i-hWKhimY8VkqTM53lWLn_jX4waJXovO1JzWdR6VEN2oiVl47P_K5wggZ8E7hJcGuQWgYjLc86Fe6IyNkBsIele0lqCmDPMjgSCaoUecSxdRRJfqv1zFO8iWnTaXJnCZ1mcJX1ukIEBzvOsaTs6IuQS5wztoqOSFzTBoL89V4JXm5P8c7USULcIm_ds-s-iUdd_RTxuQZVSM1AVTZiQNc8MjVzW3QaOMK91qZ4qpTKqFI8yQzxbSGpzK1jag5e6uAemEsGy4GdmEn2FaFaHKWJ10hsq4pnM3OP87hTmfomQGn5G7QHS4exdRIaloYCrl3XhbBN77hR-1EslgneytW_Sga7xQ4boFGtYvUEBNWkoPwxmKdqtV_IYJ0n3p1lfkvtHZMxRw7_d3LRFguFN-AAn1QMLTLf4qVZQUkacDNVRPOcKldVeawNQL_YicLXMhdXRxyxzf6OyqZOLjkbQPYEXz7PoH5NJOrZITiY5H-H69v94qdQ9zDSYaUjunZkpIfxVlBEJcf1kSmCS84HSczXqgJqJ3QBcPZmeSUOsuXb3a2bbV4zNGLPMx5NeGiAHVTMkKqL9rLIkYW98EjOTYJPD94U2Keaott1AAOhzEbIITL_kxBkqnMFQyCi9rF4Ubp3pcNwvGtoki-FVuc1fVBSLJjndV5-km3YmreMDqaptV1cWZHdSAK0K4V64N6FcHcoNCV4Z5at_l9zdZcHuiM91AwVsrufALSr1SDTeQ",
+            "publicKey": "zH5Dg_CHzpcblYgqEY-Zw0gC3AOpgi0-jv4uHkadFQc",
+            "serverName": "www.sony.kz",
+            "shortId": "f0",
+            "show": false,
+            "spiderX": "/e1e1ef84733e9a2"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "tag": "bal-3-vless"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "pl2.h1cloud.net",
+          "encryption": "none",
+          "id": "14e09867-530b-46be-8791-008c58a88b07",
+          "level": 8,
+          "port": 25820
+        },
         "streamSettings": {
           "network": "tcp",
           "realitySettings": {
             "fingerprint": "firefox",
             "mldsa65Verify": "",
             "publicKey": "3ppCvE7RDboO3Kx6MbkQMOCoK96hOa3VRBhWayqxTko",
-            "serverName": "www.sony.com.pe",
-            "shortId": "64",
+            "serverName": "www.sonylatvija.com",
+            "shortId": "7f4d5a",
             "show": false,
             "spiderX": "/9cfc5364c86a30a"
           },
@@ -66,117 +114,84 @@
             }
           }
         },
+        "tag": "bal-3-vless-2"
+      },
+      {
+        "protocol": "vless",
         "settings": {
           "address": "pl2.h1cloud.net",
           "encryption": "none",
           "id": "14e09867-530b-46be-8791-008c58a88b07",
           "level": 8,
-          "port": 25820
-        }
-      },
-      {
-        "protocol": "freedom",
-        "settings": {
-          "domainStrategy": "AsIs",
-          "noises": [],
-          "redirect": ""
+          "port": 25822
         },
-        "tag": "direct"
-      },
-      {
-        "protocol": "blackhole",
-        "settings": {
-          "response": {
-            "type": "http"
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": "",
+            "publicKey": "cRMi8_L_1CoDskUCQe5aFss3jZ1xwnpzOK5oXSNlK00",
+            "serverName": "www.cloudflare.com",
+            "shortId": "a7",
+            "show": false,
+            "spiderX": "/3add2ff0f6a9410"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
           }
         },
-        "tag": "block"
-      }
-    ],
-    "policy": {
-      "levels": {
-        "8": {
-          "connIdle": 300,
-          "downlinkOnly": 1,
-          "handshake": 4,
-          "uplinkOnly": 1
-        }
+        "tag": "bal-3-vless-3"
       },
-      "system": {
-        "statsOutboundDownlink": true,
-        "statsOutboundUplink": true
-      }
-    },
-    "remarks": "🇵🇱 Польша 1",
-    "routing": {
-      "domainStrategy": "AsIs",
-      "rules": [
-        {
-          "network": "tcp,udp",
-          "outboundTag": "proxy",
-          "type": "field"
-        }
-      ]
-    },
-    "stats": {}
-  },
-  {
-    "dns": {
-      "queryStrategy": "UseIP",
-      "servers": [
-        {
-          "address": "8.8.8.8",
-          "skipFallback": false
-        }
-      ],
-      "tag": "dns_out"
-    },
-    "inbounds": [
-      {
-        "listen": "127.0.0.1",
-        "port": 10808,
-        "protocol": "socks",
-        "settings": {
-          "auth": "noauth",
-          "udp": true,
-          "userLevel": 8
-        },
-        "sniffing": {
-          "destOverride": [
-            "http",
-            "tls",
-            "quic",
-            "fakedns"
-          ],
-          "enabled": true
-        },
-        "tag": "mixed"
-      },
-      {
-        "listen": "127.0.0.1",
-        "port": 10809,
-        "protocol": "http",
-        "settings": {
-          "userLevel": 8
-        },
-        "tag": "http"
-      }
-    ],
-    "log": {
-      "loglevel": "warning"
-    },
-    "outbounds": [
       {
         "protocol": "vless",
-        "tag": "proxy",
+        "settings": {
+          "address": "78.17.10.166",
+          "encryption": "none",
+          "id": "14e09867-530b-46be-8791-008c58a88b07",
+          "level": 8,
+          "port": 39286
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": "y9HkXKiC1ZDdAT-h4MDpWOPVNIlGHEO6EnqMXfTDofNAGkAntz2KRH3LiW-jksFF31_6krjENNxQuK1PE_MZHimMIOTeJZCxV1IIJh0HMH_7ccRM1kCudJOfzaSaqzL4U2YJJQi80iKjxIxz52N-oL7_5OTtrZ3TYV7fNK2zqbQb6C2XYCy1J0TfRwUuJ72VkXzzo8Ch7JiLTH8W_CHl2pIJshFxeag6_BlI4unrt15FtXdRGmKHB-9sv9yejfS510Xp5jq4mev5zrzZMzGletOWtQl81rXlCg6ujFDt2Qh1tjabwiPjbvHFnui87HHfN8HASlwfQo5u-ICJHSPTPCeUch0vkUYYwLtGa9ZfSrG-cfZf2kzxbZpON18vzyZ3tOqakNrCHRLo4rgrDlMSxcpH178P8Fambb_vhHE8mk3ccg3X0MC3K1KvRubbzFyBCQ4c3VA4B8B8g0CF_FLfztEN_XPGii6F4L2OdZnpkoAncH92wvNrftwHquGUoAVS7mE8Sa0R3kQ3s4ip9uw401Or8NyScDo5rmSnEU1ChOWk8lMNOvQM9ET3jLWn-LiUWe3Q_P2liJBItfcoSbxtT96Nj65nzbx1Rc6R6dylrB5aUPJkqtiHEUWDldV6Fd2ZRxNnLLI6suKfutoDE4iBZhHbw50ijDkCfsqldtxn9tQjXQ7Rz8I5sTbfLEVBB6OLyHVBEyjcA3ZAnHDkcNQS9gERt1-_k-cFISYvQWO27dDme1yrFKjkgohsQWB4OBgOrAPDkKJWwzreJwELBc7Itgb3v7Sjf9UZQVyGU8bDhq8KFw8JE6LJQa_VPcq3wl1UVn1JnzOGHvMw_V4Me4vF8kQagtsR-F6YQunrW63oNSmLBsr2NUVvx1FmEhokXL_wgto15XWhlBu52n26a7H-U4nrIuzn1HLIc2DCDURGz5aRBCqk7fYSbTDzUL1qhy0YWrgN4JLIej2D7gAnrIwHPe4rcgmtzJrurDHkerO-fgTjBKRtZ1almxROYxWmoB76C5gmzBk6xX6BxXrJ1Umj-9s52v24mphd7rfJ2g38Lw1ignyNDuy0ovglZ8hAik723SqyzDyKdMCyPtUmVc2BjBgaaT0BzQxVAOFdw1ExkZ2A0h1JYsiMX3tMiKg_4ZDWYl6Gn1q8XU2a2nnLCJo2NL8uwZ_Duw6uQWQEke3CYFrmb-Sp9ZE3NV8FRQsjqmHVxz972ezpG6VRJJELk-CKrZ2TkSX6qpoybqi-OZigwsX1v6ZgOIYmOMUNQhS_C0jPOv7Uw3dGWpaVBf_8yQzPctA9IeE65d1dpP4ezkBnCpbKhyevkhVv7RfV-YGEBVHkuQshmO6azMmSAhzp3eVMLbU4Ld7V6gRErxh7GXjwyvkZoK6wL1TXTunXsYcuCKJentcLmgGdyUIXIHoqKRGfo6jRyN5rrhLKAnHwTMLX6i4G9C_M7n_xMtY1wB2i1hg5k3475DYkey8lf9-GETsj_-CionfaUgqe-3K5TQTGyXTcHHwWlth-2Ov3Osp8tEqQwfzg7t4l2qDtwy2-eeFSmyQGvoOFgck3_OsRaZp_cAH1IdkWBZ2nUgLvw14t24_g-XNAMH17nLD0h_Gju2rhbGCoSeIS3zcFLZXQ4zDNGmLp__RTHISoz21wKkHRL5VEKIOjzMoMxrK6LeD0l7vmiyy_XecmKJzS2UwkfN4h4Cx_QRUilgaU069vTOmr9Tqy7pAvYf20E4qcJXI5ft9mWA5TwbTSg9ioPpNIcPIGuPBb4hp7QLDqYfUE4aOdez7LUN9r50QhdFzjm95sqYZpgI3ulW0BF9ab4iosa7_k3cnibQZ7MFUn4d-Yz_8wP1cOgKwmiC74fWrn9xnHJy4Ff7g29kJPfbZ7WaDML3y133WA1kx4L4wdkvn1R27vc_wqGDg_GlVzGZ1KLPS9THdsl2FqDKtMuTENMg3gdOthPrxkEQ6VqmIhwW-W9JqHKAQSq1ZGjwmU9ozn9RayWvRbXdNuH6zr5J9DX3JznhMMEID22vTa97rZyrr5RRJUeYevf6y0V8AlJVF7eySBW0WeOMgkYIZA8Vp1rNTBAvUt-MWUpBJa4BygMG11B_Bk5_0tosCdhVM07OqmlsOUNgGU7g1qCt4lgDdP4Up0GgjPnl31EOrQh8HI0X9mhXJGShZFK0hPixfS26Z3mOHFmovkuKGFN8yJAR_w1L7Z4JNVC5XVd5ehDZ-oshjalyCWncc1jVRf7pjpCWsBrSz2p1NtB5bi5urEPXXihjfF0IO0JGrtl-L7HV2GvB6NBD-UFlblpO4oh3GYNVtzR5NCwns4iZ3xicceihvl1gAI7X_afrmqwkJofSClyL9m_NQt6ZK9Pb_NtI7Ke9KJAKc_RW4DUS5qDAwEVv_CATH1l27HOD2z6yC5VU2Q3-lBcXw4uQO44T9G5VeFdnWksmzG_rPcJYHyz_hhtiBMqQ-89KL3_3KqrWGUiGtHK6gfQO10GRo87CBGn7Ju9Go9aQN6SkhRNxLR1V2pRE63ZiiUHN23NWfudJ6s46NoSis12LlEAtovou_tg1r1upzB0RDxsE6rM6CZNMwSxZn7EDBKcqLU_zw",
+            "publicKey": "__TfSKwdODBV1BrrGRQDbKAw9n9_4xQYIucNHQdJQTE",
+            "serverName": "www.goo.gl",
+            "shortId": "2d5f12",
+            "show": false,
+            "spiderX": "/d94ed95f5445c64"
+          },
+          "security": "reality",
+          "xhttpSettings": {
+            "host": "",
+            "mode": "auto",
+            "path": "/",
+            "xPaddingBytes": "100-1000"
+          }
+        },
+        "tag": "bal-3-vless-4"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "pl2.h1cloud.net",
+          "encryption": "none",
+          "id": "14e09867-530b-46be-8791-008c58a88b07",
+          "level": 8,
+          "port": 25821
+        },
         "streamSettings": {
           "network": "xhttp",
           "realitySettings": {
             "fingerprint": "firefox",
             "mldsa65Verify": "",
             "publicKey": "cRMi8_L_1CoDskUCQe5aFss3jZ1xwnpzOK5oXSNlK00",
-            "serverName": "www.cloudflare.com",
-            "shortId": "498c",
+            "serverName": "timeline.www.cloudflare.com",
+            "shortId": "a7",
             "show": false,
             "spiderX": "/3add2ff0f6a9410"
           },
@@ -188,13 +203,7 @@
             "xPaddingBytes": "100-1000"
           }
         },
-        "settings": {
-          "address": "pl2.h1cloud.net",
-          "encryption": "none",
-          "id": "14e09867-530b-46be-8791-008c58a88b07",
-          "level": 8,
-          "port": 25821
-        }
+        "tag": "bal-3-vless-5"
       },
       {
         "protocol": "freedom",
@@ -229,13 +238,54 @@
         "statsOutboundUplink": true
       }
     },
-    "remarks": "🇵🇱 Польша 2",
+    "remarks": "🇪🇺 Авто | Самый быстрый",
     "routing": {
+      "balancers": [
+        {
+          "fallbackTag": "bal-3-vless",
+          "selector": [
+            "bal-3-"
+          ],
+          "strategy": {
+            "settings": {
+              "costs": [
+                {
+                  "match": "^bal-3-vless$",
+                  "regexp": true,
+                  "value": 1
+                },
+                {
+                  "match": "^bal-3-vless-2$",
+                  "regexp": true,
+                  "value": 1
+                },
+                {
+                  "match": "^bal-3-vless-3$",
+                  "regexp": true,
+                  "value": 1
+                },
+                {
+                  "match": "^bal-3-vless-4$",
+                  "regexp": true,
+                  "value": 1
+                },
+                {
+                  "match": "^bal-3-vless-5$",
+                  "regexp": true,
+                  "value": 1
+                }
+              ]
+            },
+            "type": "leastLoad"
+          },
+          "tag": "balancer"
+        }
+      ],
       "domainStrategy": "AsIs",
       "rules": [
         {
+          "balancerTag": "balancer",
           "network": "tcp,udp",
-          "outboundTag": "proxy",
           "type": "field"
         }
       ]
@@ -243,6 +293,19 @@
     "stats": {}
   },
   {
+    "burstObservatory": {
+      "pingConfig": {
+        "connectivity": "",
+        "destination": "https://www.google.com/generate_204",
+        "httpMethod": "HEAD",
+        "interval": "1m",
+        "sampling": 2,
+        "timeout": "5s"
+      },
+      "subjectSelector": [
+        "bal-2-"
+      ]
+    },
     "dns": {
       "queryStrategy": "UseIP",
       "servers": [
@@ -290,17 +353,23 @@
     "outbounds": [
       {
         "protocol": "vless",
-        "tag": "proxy",
+        "settings": {
+          "address": "78.17.10.166",
+          "encryption": "none",
+          "id": "14e09867-530b-46be-8791-008c58a88b07",
+          "level": 8,
+          "port": 24564
+        },
         "streamSettings": {
           "network": "tcp",
           "realitySettings": {
             "fingerprint": "firefox",
-            "mldsa65Verify": "",
-            "publicKey": "cRMi8_L_1CoDskUCQe5aFss3jZ1xwnpzOK5oXSNlK00",
-            "serverName": "www.cloudflare.com",
-            "shortId": "826915",
+            "mldsa65Verify": "ou3E3K776k-3oqix7kSlLUfP1-1kqlyFjnCmUjqDSMV3keeiCtHnGm10q6bVXTJOrzCoMjiOhnRk5fNCEu0lJj_8PU4iLWXwF8r9c-pJ4CQ4ED8JKiQ_-2B3PSwMM4FinMMfyAQT_oavw_6vsDrSgtOYIGxoSScJfEKcB4D9jt43gHVnOH21cnTLiVJ2VfHusWILRI6jq-f5B-Li3Gjx-0CNFa1trZkiDsX6T0grLBGDiEZsTpHz2ylfzZTutr385D0DzL8ANxLlkqRD0Rg_XdvSTvoeBEOzhFQ30yrP4EtsEVmo3qICBCkH5UytQre8x89gpjKAbKA0FbAHwWDTvprKjodhjN3faowecVJUEtolCFrbxi2lPLtTgHG-N1guKwhXx8Fly4dx8FQlzNAwpdYwUQo0QgJ4FlGyxmE7jxcvhszXa47fwWRIbxHq_7P94vxhwRVUIdMUxpjB-YRlsmcnqcLtVmGNQQQ5qzJpl9N9ewJ2SmjyyOZQkntkeJ2HbnCPOnMeeNozxUUf2MiVsmqQ4JciYtCarq0Kk9N-pe_1ws7ZP_CTXF4KEM3CkqWqJTgBTZ2XX_-0T4pU0RQy-rEdm2TPdkEnPo6qqvWQPZNJ3-j6x5Q-t_g_uSUFm_Ak5hpKv0C2hm9KyQjXSX38fEdQ2xwKSmkWDbX6UyfAVz5Clzc-YDNKVPmkWTesF-LDK_wzKgLFu5HY4mJSIYvDZ5xoARjqXpsHgUpvbTSIo57zjFGLUFCY4zW_8iGbti7NXRC_NOuYtiASwTyyDRowffbx3lX1jpytiHy2M8185bl68hQcecGbocm8vGPzAI1ZO4dY5KTUBIz9_feewAnyo_5bgfQeT3QiJh2ejFr-39FSovn_Z6qhxDxC6Ugdu5zI8Peh2KxfL3njtRzpDgohqvy2AHjDQbf--Wu4wyBlJjJKrtcN2t7JlSP412wU9A5KljFgAxoXIf5tCKgUtTDpB072wpRIPZAoBuX_0Em9uUvxf40DnQPywlFGVfZE0gRkS-VFOUssNiKuKJnnOTtNDpee6enT_VqZANL9yxq5f7N976wDbou8gQiO8FFTz-Rrc1IzgadqP9zsSISchLQ_xXIiCBNkbVWKq2IhTajGnVHFPSUY28IodQhUFW1zdkAnTh7Q7f40MK8j4G0KcQpB7x12KNiXzYXz51fRLAwLv9vFu9H7TrwNBVy_1ae-yYyxccPi_nxX6IF_3mJPMsjaJPOvzduc8w64Hw9VtD8m23dS3DpouwQlgb9AHlln3h9tdEoVvJrHbui-rtjbUUi_ZZcvHHJCOQHg1-9EkIo1xRaTw9ySgf8klGGuAFS4nnd2MeYTrk4Et7I-c7yKzpWT5eMA8p_CtqTVN0lzZ2fKL8Zw0bKRKie3u43x5ECeO_M94ep8zKpYqeRyvgd-Ewy9ROmE3gB-DOdxA5Qcs2iawo1yOKbl-mbObQW9V-kQiP4hfHM7onaijwsu_vXaUnNdOT_jHWmWqXfGjo5ndnfZ7Ju-HZngo3vCte0o8_A8l-bkWORzL0JtAmIAl1ii5VMoYVVdRUdU5VUXtvjO278GKx_xvj_yf6mVg9tP_KtNP0518y1mMY5-iRrmif37vjOaYh96OCIwA9k-_2bm8h-F4sbCeA8j-g5h8OZcHfGMUfYQc6dAhaPC8Mbc62PM3hB7FV435ajpP0vSsyGHqgxHx-le9XYYe8uYBus6mVf24vxcq6m3kiydOvxgQTZgEMyl93kk31bM9_ZOCd6J7PxnULQcDgyZWUvbqKT0Qt8qrifEq7wbeuzKnP1eionCz01GaENFHprj2H-cWVPCKyAWrGXR9WIAYgJeUirecbrjKtmmLb1i-hWKhimY8VkqTM53lWLn_jX4waJXovO1JzWdR6VEN2oiVl47P_K5wggZ8E7hJcGuQWgYjLc86Fe6IyNkBsIele0lqCmDPMjgSCaoUecSxdRRJfqv1zFO8iWnTaXJnCZ1mcJX1ukIEBzvOsaTs6IuQS5wztoqOSFzTBoL89V4JXm5P8c7USULcIm_ds-s-iUdd_RTxuQZVSM1AVTZiQNc8MjVzW3QaOMK91qZ4qpTKqFI8yQzxbSGpzK1jag5e6uAemEsGy4GdmEn2FaFaHKWJ10hsq4pnM3OP87hTmfomQGn5G7QHS4exdRIaloYCrl3XhbBN77hR-1EslgneytW_Sga7xQ4boFGtYvUEBNWkoPwxmKdqtV_IYJ0n3p1lfkvtHZMxRw7_d3LRFguFN-AAn1QMLTLf4qVZQUkacDNVRPOcKldVeawNQL_YicLXMhdXRxyxzf6OyqZOLjkbQPYEXz7PoH5NJOrZITiY5H-H69v94qdQ9zDSYaUjunZkpIfxVlBEJcf1kSmCS84HSczXqgJqJ3QBcPZmeSUOsuXb3a2bbV4zNGLPMx5NeGiAHVTMkKqL9rLIkYW98EjOTYJPD94U2Keaott1AAOhzEbIITL_kxBkqnMFQyCi9rF4Ubp3pcNwvGtoki-FVuc1fVBSLJjndV5-km3YmreMDqaptV1cWZHdSAK0K4V64N6FcHcoNCV4Z5at_l9zdZcHuiM91AwVsrufALSr1SDTeQ",
+            "publicKey": "zH5Dg_CHzpcblYgqEY-Zw0gC3AOpgi0-jv4uHkadFQc",
+            "serverName": "www.sony.kz",
+            "shortId": "f0",
             "show": false,
-            "spiderX": "/3add2ff0f6a9410"
+            "spiderX": "/e1e1ef84733e9a2"
           },
           "security": "reality",
           "tcpSettings": {
@@ -309,13 +378,37 @@
             }
           }
         },
+        "tag": "bal-2-vless"
+      },
+      {
+        "protocol": "vless",
         "settings": {
-          "address": "pl2.h1cloud.net",
+          "address": "78.17.10.166",
           "encryption": "none",
           "id": "14e09867-530b-46be-8791-008c58a88b07",
           "level": 8,
-          "port": 25822
-        }
+          "port": 39286
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": "y9HkXKiC1ZDdAT-h4MDpWOPVNIlGHEO6EnqMXfTDofNAGkAntz2KRH3LiW-jksFF31_6krjENNxQuK1PE_MZHimMIOTeJZCxV1IIJh0HMH_7ccRM1kCudJOfzaSaqzL4U2YJJQi80iKjxIxz52N-oL7_5OTtrZ3TYV7fNK2zqbQb6C2XYCy1J0TfRwUuJ72VkXzzo8Ch7JiLTH8W_CHl2pIJshFxeag6_BlI4unrt15FtXdRGmKHB-9sv9yejfS510Xp5jq4mev5zrzZMzGletOWtQl81rXlCg6ujFDt2Qh1tjabwiPjbvHFnui87HHfN8HASlwfQo5u-ICJHSPTPCeUch0vkUYYwLtGa9ZfSrG-cfZf2kzxbZpON18vzyZ3tOqakNrCHRLo4rgrDlMSxcpH178P8Fambb_vhHE8mk3ccg3X0MC3K1KvRubbzFyBCQ4c3VA4B8B8g0CF_FLfztEN_XPGii6F4L2OdZnpkoAncH92wvNrftwHquGUoAVS7mE8Sa0R3kQ3s4ip9uw401Or8NyScDo5rmSnEU1ChOWk8lMNOvQM9ET3jLWn-LiUWe3Q_P2liJBItfcoSbxtT96Nj65nzbx1Rc6R6dylrB5aUPJkqtiHEUWDldV6Fd2ZRxNnLLI6suKfutoDE4iBZhHbw50ijDkCfsqldtxn9tQjXQ7Rz8I5sTbfLEVBB6OLyHVBEyjcA3ZAnHDkcNQS9gERt1-_k-cFISYvQWO27dDme1yrFKjkgohsQWB4OBgOrAPDkKJWwzreJwELBc7Itgb3v7Sjf9UZQVyGU8bDhq8KFw8JE6LJQa_VPcq3wl1UVn1JnzOGHvMw_V4Me4vF8kQagtsR-F6YQunrW63oNSmLBsr2NUVvx1FmEhokXL_wgto15XWhlBu52n26a7H-U4nrIuzn1HLIc2DCDURGz5aRBCqk7fYSbTDzUL1qhy0YWrgN4JLIej2D7gAnrIwHPe4rcgmtzJrurDHkerO-fgTjBKRtZ1almxROYxWmoB76C5gmzBk6xX6BxXrJ1Umj-9s52v24mphd7rfJ2g38Lw1ignyNDuy0ovglZ8hAik723SqyzDyKdMCyPtUmVc2BjBgaaT0BzQxVAOFdw1ExkZ2A0h1JYsiMX3tMiKg_4ZDWYl6Gn1q8XU2a2nnLCJo2NL8uwZ_Duw6uQWQEke3CYFrmb-Sp9ZE3NV8FRQsjqmHVxz972ezpG6VRJJELk-CKrZ2TkSX6qpoybqi-OZigwsX1v6ZgOIYmOMUNQhS_C0jPOv7Uw3dGWpaVBf_8yQzPctA9IeE65d1dpP4ezkBnCpbKhyevkhVv7RfV-YGEBVHkuQshmO6azMmSAhzp3eVMLbU4Ld7V6gRErxh7GXjwyvkZoK6wL1TXTunXsYcuCKJentcLmgGdyUIXIHoqKRGfo6jRyN5rrhLKAnHwTMLX6i4G9C_M7n_xMtY1wB2i1hg5k3475DYkey8lf9-GETsj_-CionfaUgqe-3K5TQTGyXTcHHwWlth-2Ov3Osp8tEqQwfzg7t4l2qDtwy2-eeFSmyQGvoOFgck3_OsRaZp_cAH1IdkWBZ2nUgLvw14t24_g-XNAMH17nLD0h_Gju2rhbGCoSeIS3zcFLZXQ4zDNGmLp__RTHISoz21wKkHRL5VEKIOjzMoMxrK6LeD0l7vmiyy_XecmKJzS2UwkfN4h4Cx_QRUilgaU069vTOmr9Tqy7pAvYf20E4qcJXI5ft9mWA5TwbTSg9ioPpNIcPIGuPBb4hp7QLDqYfUE4aOdez7LUN9r50QhdFzjm95sqYZpgI3ulW0BF9ab4iosa7_k3cnibQZ7MFUn4d-Yz_8wP1cOgKwmiC74fWrn9xnHJy4Ff7g29kJPfbZ7WaDML3y133WA1kx4L4wdkvn1R27vc_wqGDg_GlVzGZ1KLPS9THdsl2FqDKtMuTENMg3gdOthPrxkEQ6VqmIhwW-W9JqHKAQSq1ZGjwmU9ozn9RayWvRbXdNuH6zr5J9DX3JznhMMEID22vTa97rZyrr5RRJUeYevf6y0V8AlJVF7eySBW0WeOMgkYIZA8Vp1rNTBAvUt-MWUpBJa4BygMG11B_Bk5_0tosCdhVM07OqmlsOUNgGU7g1qCt4lgDdP4Up0GgjPnl31EOrQh8HI0X9mhXJGShZFK0hPixfS26Z3mOHFmovkuKGFN8yJAR_w1L7Z4JNVC5XVd5ehDZ-oshjalyCWncc1jVRf7pjpCWsBrSz2p1NtB5bi5urEPXXihjfF0IO0JGrtl-L7HV2GvB6NBD-UFlblpO4oh3GYNVtzR5NCwns4iZ3xicceihvl1gAI7X_afrmqwkJofSClyL9m_NQt6ZK9Pb_NtI7Ke9KJAKc_RW4DUS5qDAwEVv_CATH1l27HOD2z6yC5VU2Q3-lBcXw4uQO44T9G5VeFdnWksmzG_rPcJYHyz_hhtiBMqQ-89KL3_3KqrWGUiGtHK6gfQO10GRo87CBGn7Ju9Go9aQN6SkhRNxLR1V2pRE63ZiiUHN23NWfudJ6s46NoSis12LlEAtovou_tg1r1upzB0RDxsE6rM6CZNMwSxZn7EDBKcqLU_zw",
+            "publicKey": "__TfSKwdODBV1BrrGRQDbKAw9n9_4xQYIucNHQdJQTE",
+            "serverName": "www.goo.gl",
+            "shortId": "2d5f12",
+            "show": false,
+            "spiderX": "/d94ed95f5445c64"
+          },
+          "security": "reality",
+          "xhttpSettings": {
+            "host": "",
+            "mode": "auto",
+            "path": "/",
+            "xPaddingBytes": "100-1000"
+          }
+        },
+        "tag": "bal-2-vless-2"
       },
       {
         "protocol": "freedom",
@@ -350,13 +443,230 @@
         "statsOutboundUplink": true
       }
     },
-    "remarks": "🇵🇱 Польша 3",
+    "remarks": "🇳🇱 Авто | Нидерланды",
     "routing": {
+      "balancers": [
+        {
+          "fallbackTag": "bal-2-vless",
+          "selector": [
+            "bal-2-"
+          ],
+          "strategy": {
+            "type": "leastPing"
+          },
+          "tag": "balancer"
+        }
+      ],
       "domainStrategy": "AsIs",
       "rules": [
         {
+          "balancerTag": "balancer",
           "network": "tcp,udp",
-          "outboundTag": "proxy",
+          "type": "field"
+        }
+      ]
+    },
+    "stats": {}
+  },
+  {
+    "burstObservatory": {
+      "pingConfig": {
+        "connectivity": "",
+        "destination": "https://www.google.com/generate_204",
+        "httpMethod": "HEAD",
+        "interval": "1m",
+        "sampling": 2,
+        "timeout": "5s"
+      },
+      "subjectSelector": [
+        "bal-1-"
+      ]
+    },
+    "dns": {
+      "queryStrategy": "UseIP",
+      "servers": [
+        {
+          "address": "8.8.8.8",
+          "skipFallback": false
+        }
+      ],
+      "tag": "dns_out"
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls",
+            "quic",
+            "fakedns"
+          ],
+          "enabled": true
+        },
+        "tag": "mixed"
+      },
+      {
+        "listen": "127.0.0.1",
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "userLevel": 8
+        },
+        "tag": "http"
+      }
+    ],
+    "log": {
+      "loglevel": "warning"
+    },
+    "outbounds": [
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "pl2.h1cloud.net",
+          "encryption": "none",
+          "id": "14e09867-530b-46be-8791-008c58a88b07",
+          "level": 8,
+          "port": 25820
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": "",
+            "publicKey": "3ppCvE7RDboO3Kx6MbkQMOCoK96hOa3VRBhWayqxTko",
+            "serverName": "www.sonylatvija.com",
+            "shortId": "7f4d5a",
+            "show": false,
+            "spiderX": "/9cfc5364c86a30a"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "tag": "bal-1-vless"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "pl2.h1cloud.net",
+          "encryption": "none",
+          "id": "14e09867-530b-46be-8791-008c58a88b07",
+          "level": 8,
+          "port": 25822
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": "",
+            "publicKey": "cRMi8_L_1CoDskUCQe5aFss3jZ1xwnpzOK5oXSNlK00",
+            "serverName": "www.cloudflare.com",
+            "shortId": "a7",
+            "show": false,
+            "spiderX": "/3add2ff0f6a9410"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "tag": "bal-1-vless-2"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "pl2.h1cloud.net",
+          "encryption": "none",
+          "id": "14e09867-530b-46be-8791-008c58a88b07",
+          "level": 8,
+          "port": 25821
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": "",
+            "publicKey": "cRMi8_L_1CoDskUCQe5aFss3jZ1xwnpzOK5oXSNlK00",
+            "serverName": "timeline.www.cloudflare.com",
+            "shortId": "a7",
+            "show": false,
+            "spiderX": "/3add2ff0f6a9410"
+          },
+          "security": "reality",
+          "xhttpSettings": {
+            "host": "",
+            "mode": "auto",
+            "path": "/",
+            "xPaddingBytes": "100-1000"
+          }
+        },
+        "tag": "bal-1-vless-3"
+      },
+      {
+        "protocol": "freedom",
+        "settings": {
+          "domainStrategy": "AsIs",
+          "noises": [],
+          "redirect": ""
+        },
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "policy": {
+      "levels": {
+        "8": {
+          "connIdle": 300,
+          "downlinkOnly": 1,
+          "handshake": 4,
+          "uplinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundDownlink": true,
+        "statsOutboundUplink": true
+      }
+    },
+    "remarks": "🇵🇱 Авто | Польша",
+    "routing": {
+      "balancers": [
+        {
+          "fallbackTag": "bal-1-vless",
+          "selector": [
+            "bal-1-"
+          ],
+          "strategy": {
+            "type": "leastPing"
+          },
+          "tag": "balancer"
+        }
+      ],
+      "domainStrategy": "AsIs",
+      "rules": [
+        {
+          "balancerTag": "balancer",
+          "network": "tcp,udp",
           "type": "field"
         }
       ]
@@ -418,8 +728,8 @@
             "fingerprint": "firefox",
             "mldsa65Verify": "ou3E3K776k-3oqix7kSlLUfP1-1kqlyFjnCmUjqDSMV3keeiCtHnGm10q6bVXTJOrzCoMjiOhnRk5fNCEu0lJj_8PU4iLWXwF8r9c-pJ4CQ4ED8JKiQ_-2B3PSwMM4FinMMfyAQT_oavw_6vsDrSgtOYIGxoSScJfEKcB4D9jt43gHVnOH21cnTLiVJ2VfHusWILRI6jq-f5B-Li3Gjx-0CNFa1trZkiDsX6T0grLBGDiEZsTpHz2ylfzZTutr385D0DzL8ANxLlkqRD0Rg_XdvSTvoeBEOzhFQ30yrP4EtsEVmo3qICBCkH5UytQre8x89gpjKAbKA0FbAHwWDTvprKjodhjN3faowecVJUEtolCFrbxi2lPLtTgHG-N1guKwhXx8Fly4dx8FQlzNAwpdYwUQo0QgJ4FlGyxmE7jxcvhszXa47fwWRIbxHq_7P94vxhwRVUIdMUxpjB-YRlsmcnqcLtVmGNQQQ5qzJpl9N9ewJ2SmjyyOZQkntkeJ2HbnCPOnMeeNozxUUf2MiVsmqQ4JciYtCarq0Kk9N-pe_1ws7ZP_CTXF4KEM3CkqWqJTgBTZ2XX_-0T4pU0RQy-rEdm2TPdkEnPo6qqvWQPZNJ3-j6x5Q-t_g_uSUFm_Ak5hpKv0C2hm9KyQjXSX38fEdQ2xwKSmkWDbX6UyfAVz5Clzc-YDNKVPmkWTesF-LDK_wzKgLFu5HY4mJSIYvDZ5xoARjqXpsHgUpvbTSIo57zjFGLUFCY4zW_8iGbti7NXRC_NOuYtiASwTyyDRowffbx3lX1jpytiHy2M8185bl68hQcecGbocm8vGPzAI1ZO4dY5KTUBIz9_feewAnyo_5bgfQeT3QiJh2ejFr-39FSovn_Z6qhxDxC6Ugdu5zI8Peh2KxfL3njtRzpDgohqvy2AHjDQbf--Wu4wyBlJjJKrtcN2t7JlSP412wU9A5KljFgAxoXIf5tCKgUtTDpB072wpRIPZAoBuX_0Em9uUvxf40DnQPywlFGVfZE0gRkS-VFOUssNiKuKJnnOTtNDpee6enT_VqZANL9yxq5f7N976wDbou8gQiO8FFTz-Rrc1IzgadqP9zsSISchLQ_xXIiCBNkbVWKq2IhTajGnVHFPSUY28IodQhUFW1zdkAnTh7Q7f40MK8j4G0KcQpB7x12KNiXzYXz51fRLAwLv9vFu9H7TrwNBVy_1ae-yYyxccPi_nxX6IF_3mJPMsjaJPOvzduc8w64Hw9VtD8m23dS3DpouwQlgb9AHlln3h9tdEoVvJrHbui-rtjbUUi_ZZcvHHJCOQHg1-9EkIo1xRaTw9ySgf8klGGuAFS4nnd2MeYTrk4Et7I-c7yKzpWT5eMA8p_CtqTVN0lzZ2fKL8Zw0bKRKie3u43x5ECeO_M94ep8zKpYqeRyvgd-Ewy9ROmE3gB-DOdxA5Qcs2iawo1yOKbl-mbObQW9V-kQiP4hfHM7onaijwsu_vXaUnNdOT_jHWmWqXfGjo5ndnfZ7Ju-HZngo3vCte0o8_A8l-bkWORzL0JtAmIAl1ii5VMoYVVdRUdU5VUXtvjO278GKx_xvj_yf6mVg9tP_KtNP0518y1mMY5-iRrmif37vjOaYh96OCIwA9k-_2bm8h-F4sbCeA8j-g5h8OZcHfGMUfYQc6dAhaPC8Mbc62PM3hB7FV435ajpP0vSsyGHqgxHx-le9XYYe8uYBus6mVf24vxcq6m3kiydOvxgQTZgEMyl93kk31bM9_ZOCd6J7PxnULQcDgyZWUvbqKT0Qt8qrifEq7wbeuzKnP1eionCz01GaENFHprj2H-cWVPCKyAWrGXR9WIAYgJeUirecbrjKtmmLb1i-hWKhimY8VkqTM53lWLn_jX4waJXovO1JzWdR6VEN2oiVl47P_K5wggZ8E7hJcGuQWgYjLc86Fe6IyNkBsIele0lqCmDPMjgSCaoUecSxdRRJfqv1zFO8iWnTaXJnCZ1mcJX1ukIEBzvOsaTs6IuQS5wztoqOSFzTBoL89V4JXm5P8c7USULcIm_ds-s-iUdd_RTxuQZVSM1AVTZiQNc8MjVzW3QaOMK91qZ4qpTKqFI8yQzxbSGpzK1jag5e6uAemEsGy4GdmEn2FaFaHKWJ10hsq4pnM3OP87hTmfomQGn5G7QHS4exdRIaloYCrl3XhbBN77hR-1EslgneytW_Sga7xQ4boFGtYvUEBNWkoPwxmKdqtV_IYJ0n3p1lfkvtHZMxRw7_d3LRFguFN-AAn1QMLTLf4qVZQUkacDNVRPOcKldVeawNQL_YicLXMhdXRxyxzf6OyqZOLjkbQPYEXz7PoH5NJOrZITiY5H-H69v94qdQ9zDSYaUjunZkpIfxVlBEJcf1kSmCS84HSczXqgJqJ3QBcPZmeSUOsuXb3a2bbV4zNGLPMx5NeGiAHVTMkKqL9rLIkYW98EjOTYJPD94U2Keaott1AAOhzEbIITL_kxBkqnMFQyCi9rF4Ubp3pcNwvGtoki-FVuc1fVBSLJjndV5-km3YmreMDqaptV1cWZHdSAK0K4V64N6FcHcoNCV4Z5at_l9zdZcHuiM91AwVsrufALSr1SDTeQ",
             "publicKey": "zH5Dg_CHzpcblYgqEY-Zw0gC3AOpgi0-jv4uHkadFQc",
-            "serverName": "www.sony.co.uk",
-            "shortId": "b2f4b1a44b7d1743",
+            "serverName": "www.sony.kz",
+            "shortId": "f0",
             "show": false,
             "spiderX": "/e1e1ef84733e9a2"
           },
@@ -534,13 +844,255 @@
         "protocol": "vless",
         "tag": "proxy",
         "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": "",
+            "publicKey": "3ppCvE7RDboO3Kx6MbkQMOCoK96hOa3VRBhWayqxTko",
+            "serverName": "www.sonylatvija.com",
+            "shortId": "7f4d5a",
+            "show": false,
+            "spiderX": "/9cfc5364c86a30a"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "settings": {
+          "address": "pl2.h1cloud.net",
+          "encryption": "none",
+          "id": "14e09867-530b-46be-8791-008c58a88b07",
+          "level": 8,
+          "port": 25820
+        }
+      },
+      {
+        "protocol": "freedom",
+        "settings": {
+          "domainStrategy": "AsIs",
+          "noises": [],
+          "redirect": ""
+        },
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "policy": {
+      "levels": {
+        "8": {
+          "connIdle": 300,
+          "downlinkOnly": 1,
+          "handshake": 4,
+          "uplinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundDownlink": true,
+        "statsOutboundUplink": true
+      }
+    },
+    "remarks": "🇵🇱 Польша 1",
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": [
+        {
+          "network": "tcp,udp",
+          "outboundTag": "proxy",
+          "type": "field"
+        }
+      ]
+    },
+    "stats": {}
+  },
+  {
+    "dns": {
+      "queryStrategy": "UseIP",
+      "servers": [
+        {
+          "address": "8.8.8.8",
+          "skipFallback": false
+        }
+      ],
+      "tag": "dns_out"
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls",
+            "quic",
+            "fakedns"
+          ],
+          "enabled": true
+        },
+        "tag": "mixed"
+      },
+      {
+        "listen": "127.0.0.1",
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "userLevel": 8
+        },
+        "tag": "http"
+      }
+    ],
+    "log": {
+      "loglevel": "warning"
+    },
+    "outbounds": [
+      {
+        "protocol": "vless",
+        "tag": "proxy",
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": "",
+            "publicKey": "cRMi8_L_1CoDskUCQe5aFss3jZ1xwnpzOK5oXSNlK00",
+            "serverName": "www.cloudflare.com",
+            "shortId": "a7",
+            "show": false,
+            "spiderX": "/3add2ff0f6a9410"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "settings": {
+          "address": "pl2.h1cloud.net",
+          "encryption": "none",
+          "id": "14e09867-530b-46be-8791-008c58a88b07",
+          "level": 8,
+          "port": 25822
+        }
+      },
+      {
+        "protocol": "freedom",
+        "settings": {
+          "domainStrategy": "AsIs",
+          "noises": [],
+          "redirect": ""
+        },
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "policy": {
+      "levels": {
+        "8": {
+          "connIdle": 300,
+          "downlinkOnly": 1,
+          "handshake": 4,
+          "uplinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundDownlink": true,
+        "statsOutboundUplink": true
+      }
+    },
+    "remarks": "🇵🇱 Польша 3",
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": [
+        {
+          "network": "tcp,udp",
+          "outboundTag": "proxy",
+          "type": "field"
+        }
+      ]
+    },
+    "stats": {}
+  },
+  {
+    "dns": {
+      "queryStrategy": "UseIP",
+      "servers": [
+        {
+          "address": "8.8.8.8",
+          "skipFallback": false
+        }
+      ],
+      "tag": "dns_out"
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls",
+            "quic",
+            "fakedns"
+          ],
+          "enabled": true
+        },
+        "tag": "mixed"
+      },
+      {
+        "listen": "127.0.0.1",
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "userLevel": 8
+        },
+        "tag": "http"
+      }
+    ],
+    "log": {
+      "loglevel": "warning"
+    },
+    "outbounds": [
+      {
+        "protocol": "vless",
+        "tag": "proxy",
+        "streamSettings": {
           "network": "xhttp",
           "realitySettings": {
             "fingerprint": "firefox",
             "mldsa65Verify": "y9HkXKiC1ZDdAT-h4MDpWOPVNIlGHEO6EnqMXfTDofNAGkAntz2KRH3LiW-jksFF31_6krjENNxQuK1PE_MZHimMIOTeJZCxV1IIJh0HMH_7ccRM1kCudJOfzaSaqzL4U2YJJQi80iKjxIxz52N-oL7_5OTtrZ3TYV7fNK2zqbQb6C2XYCy1J0TfRwUuJ72VkXzzo8Ch7JiLTH8W_CHl2pIJshFxeag6_BlI4unrt15FtXdRGmKHB-9sv9yejfS510Xp5jq4mev5zrzZMzGletOWtQl81rXlCg6ujFDt2Qh1tjabwiPjbvHFnui87HHfN8HASlwfQo5u-ICJHSPTPCeUch0vkUYYwLtGa9ZfSrG-cfZf2kzxbZpON18vzyZ3tOqakNrCHRLo4rgrDlMSxcpH178P8Fambb_vhHE8mk3ccg3X0MC3K1KvRubbzFyBCQ4c3VA4B8B8g0CF_FLfztEN_XPGii6F4L2OdZnpkoAncH92wvNrftwHquGUoAVS7mE8Sa0R3kQ3s4ip9uw401Or8NyScDo5rmSnEU1ChOWk8lMNOvQM9ET3jLWn-LiUWe3Q_P2liJBItfcoSbxtT96Nj65nzbx1Rc6R6dylrB5aUPJkqtiHEUWDldV6Fd2ZRxNnLLI6suKfutoDE4iBZhHbw50ijDkCfsqldtxn9tQjXQ7Rz8I5sTbfLEVBB6OLyHVBEyjcA3ZAnHDkcNQS9gERt1-_k-cFISYvQWO27dDme1yrFKjkgohsQWB4OBgOrAPDkKJWwzreJwELBc7Itgb3v7Sjf9UZQVyGU8bDhq8KFw8JE6LJQa_VPcq3wl1UVn1JnzOGHvMw_V4Me4vF8kQagtsR-F6YQunrW63oNSmLBsr2NUVvx1FmEhokXL_wgto15XWhlBu52n26a7H-U4nrIuzn1HLIc2DCDURGz5aRBCqk7fYSbTDzUL1qhy0YWrgN4JLIej2D7gAnrIwHPe4rcgmtzJrurDHkerO-fgTjBKRtZ1almxROYxWmoB76C5gmzBk6xX6BxXrJ1Umj-9s52v24mphd7rfJ2g38Lw1ignyNDuy0ovglZ8hAik723SqyzDyKdMCyPtUmVc2BjBgaaT0BzQxVAOFdw1ExkZ2A0h1JYsiMX3tMiKg_4ZDWYl6Gn1q8XU2a2nnLCJo2NL8uwZ_Duw6uQWQEke3CYFrmb-Sp9ZE3NV8FRQsjqmHVxz972ezpG6VRJJELk-CKrZ2TkSX6qpoybqi-OZigwsX1v6ZgOIYmOMUNQhS_C0jPOv7Uw3dGWpaVBf_8yQzPctA9IeE65d1dpP4ezkBnCpbKhyevkhVv7RfV-YGEBVHkuQshmO6azMmSAhzp3eVMLbU4Ld7V6gRErxh7GXjwyvkZoK6wL1TXTunXsYcuCKJentcLmgGdyUIXIHoqKRGfo6jRyN5rrhLKAnHwTMLX6i4G9C_M7n_xMtY1wB2i1hg5k3475DYkey8lf9-GETsj_-CionfaUgqe-3K5TQTGyXTcHHwWlth-2Ov3Osp8tEqQwfzg7t4l2qDtwy2-eeFSmyQGvoOFgck3_OsRaZp_cAH1IdkWBZ2nUgLvw14t24_g-XNAMH17nLD0h_Gju2rhbGCoSeIS3zcFLZXQ4zDNGmLp__RTHISoz21wKkHRL5VEKIOjzMoMxrK6LeD0l7vmiyy_XecmKJzS2UwkfN4h4Cx_QRUilgaU069vTOmr9Tqy7pAvYf20E4qcJXI5ft9mWA5TwbTSg9ioPpNIcPIGuPBb4hp7QLDqYfUE4aOdez7LUN9r50QhdFzjm95sqYZpgI3ulW0BF9ab4iosa7_k3cnibQZ7MFUn4d-Yz_8wP1cOgKwmiC74fWrn9xnHJy4Ff7g29kJPfbZ7WaDML3y133WA1kx4L4wdkvn1R27vc_wqGDg_GlVzGZ1KLPS9THdsl2FqDKtMuTENMg3gdOthPrxkEQ6VqmIhwW-W9JqHKAQSq1ZGjwmU9ozn9RayWvRbXdNuH6zr5J9DX3JznhMMEID22vTa97rZyrr5RRJUeYevf6y0V8AlJVF7eySBW0WeOMgkYIZA8Vp1rNTBAvUt-MWUpBJa4BygMG11B_Bk5_0tosCdhVM07OqmlsOUNgGU7g1qCt4lgDdP4Up0GgjPnl31EOrQh8HI0X9mhXJGShZFK0hPixfS26Z3mOHFmovkuKGFN8yJAR_w1L7Z4JNVC5XVd5ehDZ-oshjalyCWncc1jVRf7pjpCWsBrSz2p1NtB5bi5urEPXXihjfF0IO0JGrtl-L7HV2GvB6NBD-UFlblpO4oh3GYNVtzR5NCwns4iZ3xicceihvl1gAI7X_afrmqwkJofSClyL9m_NQt6ZK9Pb_NtI7Ke9KJAKc_RW4DUS5qDAwEVv_CATH1l27HOD2z6yC5VU2Q3-lBcXw4uQO44T9G5VeFdnWksmzG_rPcJYHyz_hhtiBMqQ-89KL3_3KqrWGUiGtHK6gfQO10GRo87CBGn7Ju9Go9aQN6SkhRNxLR1V2pRE63ZiiUHN23NWfudJ6s46NoSis12LlEAtovou_tg1r1upzB0RDxsE6rM6CZNMwSxZn7EDBKcqLU_zw",
             "publicKey": "__TfSKwdODBV1BrrGRQDbKAw9n9_4xQYIucNHQdJQTE",
-            "serverName": "music.youtube.com",
-            "shortId": "fe",
+            "serverName": "www.goo.gl",
+            "shortId": "2d5f12",
             "show": false,
             "spiderX": "/d94ed95f5445c64"
           },
@@ -607,19 +1159,6 @@
     "stats": {}
   },
   {
-    "burstObservatory": {
-      "pingConfig": {
-        "connectivity": "",
-        "destination": "https://www.google.com/generate_204",
-        "httpMethod": "HEAD",
-        "interval": "1m",
-        "sampling": 2,
-        "timeout": "5s"
-      },
-      "subjectSelector": [
-        "bal-1-"
-      ]
-    },
     "dns": {
       "queryStrategy": "UseIP",
       "servers": [
@@ -667,91 +1206,33 @@
     "outbounds": [
       {
         "protocol": "vless",
-        "settings": {
-          "address": "pl2.h1cloud.net",
-          "encryption": "none",
-          "id": "14e09867-530b-46be-8791-008c58a88b07",
-          "level": 8,
-          "port": 25820
-        },
+        "tag": "proxy",
         "streamSettings": {
-          "network": "tcp",
+          "network": "xhttp",
           "realitySettings": {
             "fingerprint": "firefox",
             "mldsa65Verify": "",
-            "publicKey": "3ppCvE7RDboO3Kx6MbkQMOCoK96hOa3VRBhWayqxTko",
-            "serverName": "www.sony.com.pe",
-            "shortId": "64",
+            "publicKey": "cRMi8_L_1CoDskUCQe5aFss3jZ1xwnpzOK5oXSNlK00",
+            "serverName": "timeline.www.cloudflare.com",
+            "shortId": "a7",
             "show": false,
-            "spiderX": "/9cfc5364c86a30a"
+            "spiderX": "/3add2ff0f6a9410"
           },
           "security": "reality",
-          "tcpSettings": {
-            "header": {
-              "type": "none"
-            }
+          "xhttpSettings": {
+            "host": "",
+            "mode": "auto",
+            "path": "/",
+            "xPaddingBytes": "100-1000"
           }
         },
-        "tag": "bal-1-vless"
-      },
-      {
-        "protocol": "vless",
         "settings": {
           "address": "pl2.h1cloud.net",
           "encryption": "none",
           "id": "14e09867-530b-46be-8791-008c58a88b07",
           "level": 8,
           "port": 25821
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "realitySettings": {
-            "fingerprint": "firefox",
-            "mldsa65Verify": "",
-            "publicKey": "cRMi8_L_1CoDskUCQe5aFss3jZ1xwnpzOK5oXSNlK00",
-            "serverName": "www.cloudflare.com",
-            "shortId": "498c",
-            "show": false,
-            "spiderX": "/3add2ff0f6a9410"
-          },
-          "security": "reality",
-          "xhttpSettings": {
-            "host": "",
-            "mode": "auto",
-            "path": "/",
-            "xPaddingBytes": "100-1000"
-          }
-        },
-        "tag": "bal-1-vless-2"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "pl2.h1cloud.net",
-          "encryption": "none",
-          "id": "14e09867-530b-46be-8791-008c58a88b07",
-          "level": 8,
-          "port": 25822
-        },
-        "streamSettings": {
-          "network": "tcp",
-          "realitySettings": {
-            "fingerprint": "firefox",
-            "mldsa65Verify": "",
-            "publicKey": "cRMi8_L_1CoDskUCQe5aFss3jZ1xwnpzOK5oXSNlK00",
-            "serverName": "www.cloudflare.com",
-            "shortId": "826915",
-            "show": false,
-            "spiderX": "/3add2ff0f6a9410"
-          },
-          "security": "reality",
-          "tcpSettings": {
-            "header": {
-              "type": "none"
-            }
-          }
-        },
-        "tag": "bal-1-vless-3"
+        }
       },
       {
         "protocol": "freedom",
@@ -786,201 +1267,13 @@
         "statsOutboundUplink": true
       }
     },
-    "remarks": "🇵🇱 Польша (авто)",
+    "remarks": "🇵🇱 Польша 2",
     "routing": {
-      "balancers": [
-        {
-          "fallbackTag": "bal-1-vless",
-          "selector": [
-            "bal-1-"
-          ],
-          "strategy": {
-            "type": "leastPing"
-          },
-          "tag": "balancer"
-        }
-      ],
       "domainStrategy": "AsIs",
       "rules": [
         {
-          "balancerTag": "balancer",
           "network": "tcp,udp",
-          "type": "field"
-        }
-      ]
-    },
-    "stats": {}
-  },
-  {
-    "burstObservatory": {
-      "pingConfig": {
-        "connectivity": "",
-        "destination": "https://www.google.com/generate_204",
-        "httpMethod": "HEAD",
-        "interval": "1m",
-        "sampling": 2,
-        "timeout": "5s"
-      },
-      "subjectSelector": [
-        "bal-2-"
-      ]
-    },
-    "dns": {
-      "queryStrategy": "UseIP",
-      "servers": [
-        {
-          "address": "8.8.8.8",
-          "skipFallback": false
-        }
-      ],
-      "tag": "dns_out"
-    },
-    "inbounds": [
-      {
-        "listen": "127.0.0.1",
-        "port": 10808,
-        "protocol": "socks",
-        "settings": {
-          "auth": "noauth",
-          "udp": true,
-          "userLevel": 8
-        },
-        "sniffing": {
-          "destOverride": [
-            "http",
-            "tls",
-            "quic",
-            "fakedns"
-          ],
-          "enabled": true
-        },
-        "tag": "mixed"
-      },
-      {
-        "listen": "127.0.0.1",
-        "port": 10809,
-        "protocol": "http",
-        "settings": {
-          "userLevel": 8
-        },
-        "tag": "http"
-      }
-    ],
-    "log": {
-      "loglevel": "warning"
-    },
-    "outbounds": [
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "78.17.10.166",
-          "encryption": "none",
-          "id": "14e09867-530b-46be-8791-008c58a88b07",
-          "level": 8,
-          "port": 24564
-        },
-        "streamSettings": {
-          "network": "tcp",
-          "realitySettings": {
-            "fingerprint": "firefox",
-            "mldsa65Verify": "ou3E3K776k-3oqix7kSlLUfP1-1kqlyFjnCmUjqDSMV3keeiCtHnGm10q6bVXTJOrzCoMjiOhnRk5fNCEu0lJj_8PU4iLWXwF8r9c-pJ4CQ4ED8JKiQ_-2B3PSwMM4FinMMfyAQT_oavw_6vsDrSgtOYIGxoSScJfEKcB4D9jt43gHVnOH21cnTLiVJ2VfHusWILRI6jq-f5B-Li3Gjx-0CNFa1trZkiDsX6T0grLBGDiEZsTpHz2ylfzZTutr385D0DzL8ANxLlkqRD0Rg_XdvSTvoeBEOzhFQ30yrP4EtsEVmo3qICBCkH5UytQre8x89gpjKAbKA0FbAHwWDTvprKjodhjN3faowecVJUEtolCFrbxi2lPLtTgHG-N1guKwhXx8Fly4dx8FQlzNAwpdYwUQo0QgJ4FlGyxmE7jxcvhszXa47fwWRIbxHq_7P94vxhwRVUIdMUxpjB-YRlsmcnqcLtVmGNQQQ5qzJpl9N9ewJ2SmjyyOZQkntkeJ2HbnCPOnMeeNozxUUf2MiVsmqQ4JciYtCarq0Kk9N-pe_1ws7ZP_CTXF4KEM3CkqWqJTgBTZ2XX_-0T4pU0RQy-rEdm2TPdkEnPo6qqvWQPZNJ3-j6x5Q-t_g_uSUFm_Ak5hpKv0C2hm9KyQjXSX38fEdQ2xwKSmkWDbX6UyfAVz5Clzc-YDNKVPmkWTesF-LDK_wzKgLFu5HY4mJSIYvDZ5xoARjqXpsHgUpvbTSIo57zjFGLUFCY4zW_8iGbti7NXRC_NOuYtiASwTyyDRowffbx3lX1jpytiHy2M8185bl68hQcecGbocm8vGPzAI1ZO4dY5KTUBIz9_feewAnyo_5bgfQeT3QiJh2ejFr-39FSovn_Z6qhxDxC6Ugdu5zI8Peh2KxfL3njtRzpDgohqvy2AHjDQbf--Wu4wyBlJjJKrtcN2t7JlSP412wU9A5KljFgAxoXIf5tCKgUtTDpB072wpRIPZAoBuX_0Em9uUvxf40DnQPywlFGVfZE0gRkS-VFOUssNiKuKJnnOTtNDpee6enT_VqZANL9yxq5f7N976wDbou8gQiO8FFTz-Rrc1IzgadqP9zsSISchLQ_xXIiCBNkbVWKq2IhTajGnVHFPSUY28IodQhUFW1zdkAnTh7Q7f40MK8j4G0KcQpB7x12KNiXzYXz51fRLAwLv9vFu9H7TrwNBVy_1ae-yYyxccPi_nxX6IF_3mJPMsjaJPOvzduc8w64Hw9VtD8m23dS3DpouwQlgb9AHlln3h9tdEoVvJrHbui-rtjbUUi_ZZcvHHJCOQHg1-9EkIo1xRaTw9ySgf8klGGuAFS4nnd2MeYTrk4Et7I-c7yKzpWT5eMA8p_CtqTVN0lzZ2fKL8Zw0bKRKie3u43x5ECeO_M94ep8zKpYqeRyvgd-Ewy9ROmE3gB-DOdxA5Qcs2iawo1yOKbl-mbObQW9V-kQiP4hfHM7onaijwsu_vXaUnNdOT_jHWmWqXfGjo5ndnfZ7Ju-HZngo3vCte0o8_A8l-bkWORzL0JtAmIAl1ii5VMoYVVdRUdU5VUXtvjO278GKx_xvj_yf6mVg9tP_KtNP0518y1mMY5-iRrmif37vjOaYh96OCIwA9k-_2bm8h-F4sbCeA8j-g5h8OZcHfGMUfYQc6dAhaPC8Mbc62PM3hB7FV435ajpP0vSsyGHqgxHx-le9XYYe8uYBus6mVf24vxcq6m3kiydOvxgQTZgEMyl93kk31bM9_ZOCd6J7PxnULQcDgyZWUvbqKT0Qt8qrifEq7wbeuzKnP1eionCz01GaENFHprj2H-cWVPCKyAWrGXR9WIAYgJeUirecbrjKtmmLb1i-hWKhimY8VkqTM53lWLn_jX4waJXovO1JzWdR6VEN2oiVl47P_K5wggZ8E7hJcGuQWgYjLc86Fe6IyNkBsIele0lqCmDPMjgSCaoUecSxdRRJfqv1zFO8iWnTaXJnCZ1mcJX1ukIEBzvOsaTs6IuQS5wztoqOSFzTBoL89V4JXm5P8c7USULcIm_ds-s-iUdd_RTxuQZVSM1AVTZiQNc8MjVzW3QaOMK91qZ4qpTKqFI8yQzxbSGpzK1jag5e6uAemEsGy4GdmEn2FaFaHKWJ10hsq4pnM3OP87hTmfomQGn5G7QHS4exdRIaloYCrl3XhbBN77hR-1EslgneytW_Sga7xQ4boFGtYvUEBNWkoPwxmKdqtV_IYJ0n3p1lfkvtHZMxRw7_d3LRFguFN-AAn1QMLTLf4qVZQUkacDNVRPOcKldVeawNQL_YicLXMhdXRxyxzf6OyqZOLjkbQPYEXz7PoH5NJOrZITiY5H-H69v94qdQ9zDSYaUjunZkpIfxVlBEJcf1kSmCS84HSczXqgJqJ3QBcPZmeSUOsuXb3a2bbV4zNGLPMx5NeGiAHVTMkKqL9rLIkYW98EjOTYJPD94U2Keaott1AAOhzEbIITL_kxBkqnMFQyCi9rF4Ubp3pcNwvGtoki-FVuc1fVBSLJjndV5-km3YmreMDqaptV1cWZHdSAK0K4V64N6FcHcoNCV4Z5at_l9zdZcHuiM91AwVsrufALSr1SDTeQ",
-            "publicKey": "zH5Dg_CHzpcblYgqEY-Zw0gC3AOpgi0-jv4uHkadFQc",
-            "serverName": "www.sony.co.uk",
-            "shortId": "b2f4b1a44b7d1743",
-            "show": false,
-            "spiderX": "/e1e1ef84733e9a2"
-          },
-          "security": "reality",
-          "tcpSettings": {
-            "header": {
-              "type": "none"
-            }
-          }
-        },
-        "tag": "bal-2-vless"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "address": "78.17.10.166",
-          "encryption": "none",
-          "id": "14e09867-530b-46be-8791-008c58a88b07",
-          "level": 8,
-          "port": 39286
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "realitySettings": {
-            "fingerprint": "firefox",
-            "mldsa65Verify": "y9HkXKiC1ZDdAT-h4MDpWOPVNIlGHEO6EnqMXfTDofNAGkAntz2KRH3LiW-jksFF31_6krjENNxQuK1PE_MZHimMIOTeJZCxV1IIJh0HMH_7ccRM1kCudJOfzaSaqzL4U2YJJQi80iKjxIxz52N-oL7_5OTtrZ3TYV7fNK2zqbQb6C2XYCy1J0TfRwUuJ72VkXzzo8Ch7JiLTH8W_CHl2pIJshFxeag6_BlI4unrt15FtXdRGmKHB-9sv9yejfS510Xp5jq4mev5zrzZMzGletOWtQl81rXlCg6ujFDt2Qh1tjabwiPjbvHFnui87HHfN8HASlwfQo5u-ICJHSPTPCeUch0vkUYYwLtGa9ZfSrG-cfZf2kzxbZpON18vzyZ3tOqakNrCHRLo4rgrDlMSxcpH178P8Fambb_vhHE8mk3ccg3X0MC3K1KvRubbzFyBCQ4c3VA4B8B8g0CF_FLfztEN_XPGii6F4L2OdZnpkoAncH92wvNrftwHquGUoAVS7mE8Sa0R3kQ3s4ip9uw401Or8NyScDo5rmSnEU1ChOWk8lMNOvQM9ET3jLWn-LiUWe3Q_P2liJBItfcoSbxtT96Nj65nzbx1Rc6R6dylrB5aUPJkqtiHEUWDldV6Fd2ZRxNnLLI6suKfutoDE4iBZhHbw50ijDkCfsqldtxn9tQjXQ7Rz8I5sTbfLEVBB6OLyHVBEyjcA3ZAnHDkcNQS9gERt1-_k-cFISYvQWO27dDme1yrFKjkgohsQWB4OBgOrAPDkKJWwzreJwELBc7Itgb3v7Sjf9UZQVyGU8bDhq8KFw8JE6LJQa_VPcq3wl1UVn1JnzOGHvMw_V4Me4vF8kQagtsR-F6YQunrW63oNSmLBsr2NUVvx1FmEhokXL_wgto15XWhlBu52n26a7H-U4nrIuzn1HLIc2DCDURGz5aRBCqk7fYSbTDzUL1qhy0YWrgN4JLIej2D7gAnrIwHPe4rcgmtzJrurDHkerO-fgTjBKRtZ1almxROYxWmoB76C5gmzBk6xX6BxXrJ1Umj-9s52v24mphd7rfJ2g38Lw1ignyNDuy0ovglZ8hAik723SqyzDyKdMCyPtUmVc2BjBgaaT0BzQxVAOFdw1ExkZ2A0h1JYsiMX3tMiKg_4ZDWYl6Gn1q8XU2a2nnLCJo2NL8uwZ_Duw6uQWQEke3CYFrmb-Sp9ZE3NV8FRQsjqmHVxz972ezpG6VRJJELk-CKrZ2TkSX6qpoybqi-OZigwsX1v6ZgOIYmOMUNQhS_C0jPOv7Uw3dGWpaVBf_8yQzPctA9IeE65d1dpP4ezkBnCpbKhyevkhVv7RfV-YGEBVHkuQshmO6azMmSAhzp3eVMLbU4Ld7V6gRErxh7GXjwyvkZoK6wL1TXTunXsYcuCKJentcLmgGdyUIXIHoqKRGfo6jRyN5rrhLKAnHwTMLX6i4G9C_M7n_xMtY1wB2i1hg5k3475DYkey8lf9-GETsj_-CionfaUgqe-3K5TQTGyXTcHHwWlth-2Ov3Osp8tEqQwfzg7t4l2qDtwy2-eeFSmyQGvoOFgck3_OsRaZp_cAH1IdkWBZ2nUgLvw14t24_g-XNAMH17nLD0h_Gju2rhbGCoSeIS3zcFLZXQ4zDNGmLp__RTHISoz21wKkHRL5VEKIOjzMoMxrK6LeD0l7vmiyy_XecmKJzS2UwkfN4h4Cx_QRUilgaU069vTOmr9Tqy7pAvYf20E4qcJXI5ft9mWA5TwbTSg9ioPpNIcPIGuPBb4hp7QLDqYfUE4aOdez7LUN9r50QhdFzjm95sqYZpgI3ulW0BF9ab4iosa7_k3cnibQZ7MFUn4d-Yz_8wP1cOgKwmiC74fWrn9xnHJy4Ff7g29kJPfbZ7WaDML3y133WA1kx4L4wdkvn1R27vc_wqGDg_GlVzGZ1KLPS9THdsl2FqDKtMuTENMg3gdOthPrxkEQ6VqmIhwW-W9JqHKAQSq1ZGjwmU9ozn9RayWvRbXdNuH6zr5J9DX3JznhMMEID22vTa97rZyrr5RRJUeYevf6y0V8AlJVF7eySBW0WeOMgkYIZA8Vp1rNTBAvUt-MWUpBJa4BygMG11B_Bk5_0tosCdhVM07OqmlsOUNgGU7g1qCt4lgDdP4Up0GgjPnl31EOrQh8HI0X9mhXJGShZFK0hPixfS26Z3mOHFmovkuKGFN8yJAR_w1L7Z4JNVC5XVd5ehDZ-oshjalyCWncc1jVRf7pjpCWsBrSz2p1NtB5bi5urEPXXihjfF0IO0JGrtl-L7HV2GvB6NBD-UFlblpO4oh3GYNVtzR5NCwns4iZ3xicceihvl1gAI7X_afrmqwkJofSClyL9m_NQt6ZK9Pb_NtI7Ke9KJAKc_RW4DUS5qDAwEVv_CATH1l27HOD2z6yC5VU2Q3-lBcXw4uQO44T9G5VeFdnWksmzG_rPcJYHyz_hhtiBMqQ-89KL3_3KqrWGUiGtHK6gfQO10GRo87CBGn7Ju9Go9aQN6SkhRNxLR1V2pRE63ZiiUHN23NWfudJ6s46NoSis12LlEAtovou_tg1r1upzB0RDxsE6rM6CZNMwSxZn7EDBKcqLU_zw",
-            "publicKey": "__TfSKwdODBV1BrrGRQDbKAw9n9_4xQYIucNHQdJQTE",
-            "serverName": "music.youtube.com",
-            "shortId": "fe",
-            "show": false,
-            "spiderX": "/d94ed95f5445c64"
-          },
-          "security": "reality",
-          "xhttpSettings": {
-            "host": "",
-            "mode": "auto",
-            "path": "/",
-            "xPaddingBytes": "100-1000"
-          }
-        },
-        "tag": "bal-2-vless-2"
-      },
-      {
-        "protocol": "freedom",
-        "settings": {
-          "domainStrategy": "AsIs",
-          "noises": [],
-          "redirect": ""
-        },
-        "tag": "direct"
-      },
-      {
-        "protocol": "blackhole",
-        "settings": {
-          "response": {
-            "type": "http"
-          }
-        },
-        "tag": "block"
-      }
-    ],
-    "policy": {
-      "levels": {
-        "8": {
-          "connIdle": 300,
-          "downlinkOnly": 1,
-          "handshake": 4,
-          "uplinkOnly": 1
-        }
-      },
-      "system": {
-        "statsOutboundDownlink": true,
-        "statsOutboundUplink": true
-      }
-    },
-    "remarks": "🇳🇱 Нидерланды (авто)",
-    "routing": {
-      "balancers": [
-        {
-          "fallbackTag": "bal-2-vless",
-          "selector": [
-            "bal-2-"
-          ],
-          "strategy": {
-            "type": "leastPing"
-          },
-          "tag": "balancer"
-        }
-      ],
-      "domainStrategy": "AsIs",
-      "rules": [
-        {
-          "balancerTag": "balancer",
-          "network": "tcp,udp",
+          "outboundTag": "proxy",
           "type": "field"
         }
       ]
