@@ -74,7 +74,7 @@
             "mldsa65Verify": "",
             "publicKey": "T9fWMXsQSUZrUv9qfs7WhwPoRa6RPj8vFm-m8Pap6yE",
             "serverName": "hostkey.com",
-            "shortId": "32",
+            "shortId": "0163ec00abb044",
             "show": false,
             "spiderX": "/1a0273792098f2a"
           },
@@ -86,6 +86,122 @@
           }
         },
         "tag": "bal-4-vless"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "78.17.10.166",
+          "encryption": "none",
+          "id": "fbce9b15-3d3f-4176-9f18-ad7b4679ea33",
+          "level": 8,
+          "port": 13100
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": "",
+            "publicKey": "PsoR_HcGTpWBlkXWrmY-wZPG4znylPFd75mMP7Rcj0M",
+            "serverName": "dataforest.net",
+            "shortId": "9c5a9929ea",
+            "show": false,
+            "spiderX": "/d7c4a9f4f356477"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "tag": "bal-4-vless-2"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "78.17.10.166",
+          "encryption": "none",
+          "id": "fbce9b15-3d3f-4176-9f18-ad7b4679ea33",
+          "level": 8,
+          "port": 13101
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": "",
+            "publicKey": "PsoR_HcGTpWBlkXWrmY-wZPG4znylPFd75mMP7Rcj0M",
+            "serverName": "dataforest.net",
+            "shortId": "9c5a9929ea",
+            "show": false,
+            "spiderX": "/d7c4a9f4f356477"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "tag": "bal-4-vless-3"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "78.17.10.166",
+          "encryption": "none",
+          "id": "fbce9b15-3d3f-4176-9f18-ad7b4679ea33",
+          "level": 8,
+          "port": 13102
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": "",
+            "publicKey": "PsoR_HcGTpWBlkXWrmY-wZPG4znylPFd75mMP7Rcj0M",
+            "serverName": "dataforest.net",
+            "shortId": "9c5a9929ea",
+            "show": false,
+            "spiderX": "/d7c4a9f4f356477"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "tag": "bal-4-vless-4"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "78.17.10.166",
+          "encryption": "none",
+          "id": "fbce9b15-3d3f-4176-9f18-ad7b4679ea33",
+          "level": 8,
+          "port": 13103
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": "",
+            "publicKey": "70hMIWW1uECDW0xojaYq5Hf-nEf3JWtGBb4azZXoq0c",
+            "serverName": "dataforest.net",
+            "shortId": "13",
+            "show": false,
+            "spiderX": "/6703b02676585b9"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "tag": "bal-4-vless-5"
       },
       {
         "protocol": "freedom",
@@ -219,7 +335,7 @@
             "mldsa65Verify": "",
             "publicKey": "T9fWMXsQSUZrUv9qfs7WhwPoRa6RPj8vFm-m8Pap6yE",
             "serverName": "hostkey.com",
-            "shortId": "32",
+            "shortId": "0163ec00abb044",
             "show": false,
             "spiderX": "/1a0273792098f2a"
           },
@@ -231,6 +347,122 @@
           }
         },
         "tag": "bal-3-vless"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "78.17.10.166",
+          "encryption": "none",
+          "id": "fbce9b15-3d3f-4176-9f18-ad7b4679ea33",
+          "level": 8,
+          "port": 13100
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": "",
+            "publicKey": "PsoR_HcGTpWBlkXWrmY-wZPG4znylPFd75mMP7Rcj0M",
+            "serverName": "dataforest.net",
+            "shortId": "9c5a9929ea",
+            "show": false,
+            "spiderX": "/d7c4a9f4f356477"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "tag": "bal-3-vless-2"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "78.17.10.166",
+          "encryption": "none",
+          "id": "fbce9b15-3d3f-4176-9f18-ad7b4679ea33",
+          "level": 8,
+          "port": 13101
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": "",
+            "publicKey": "PsoR_HcGTpWBlkXWrmY-wZPG4znylPFd75mMP7Rcj0M",
+            "serverName": "dataforest.net",
+            "shortId": "9c5a9929ea",
+            "show": false,
+            "spiderX": "/d7c4a9f4f356477"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "tag": "bal-3-vless-3"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "78.17.10.166",
+          "encryption": "none",
+          "id": "fbce9b15-3d3f-4176-9f18-ad7b4679ea33",
+          "level": 8,
+          "port": 13102
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": "",
+            "publicKey": "PsoR_HcGTpWBlkXWrmY-wZPG4znylPFd75mMP7Rcj0M",
+            "serverName": "dataforest.net",
+            "shortId": "9c5a9929ea",
+            "show": false,
+            "spiderX": "/d7c4a9f4f356477"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "tag": "bal-3-vless-4"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "address": "78.17.10.166",
+          "encryption": "none",
+          "id": "fbce9b15-3d3f-4176-9f18-ad7b4679ea33",
+          "level": 8,
+          "port": 13103
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": "",
+            "publicKey": "70hMIWW1uECDW0xojaYq5Hf-nEf3JWtGBb4azZXoq0c",
+            "serverName": "dataforest.net",
+            "shortId": "13",
+            "show": false,
+            "spiderX": "/6703b02676585b9"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "tag": "bal-3-vless-5"
       },
       {
         "protocol": "freedom",
@@ -279,6 +511,26 @@
                   "match": "^bal-3-vless$",
                   "regexp": true,
                   "value": 1
+                },
+                {
+                  "match": "^bal-3-vless-2$",
+                  "regexp": true,
+                  "value": 0.5
+                },
+                {
+                  "match": "^bal-3-vless-3$",
+                  "regexp": true,
+                  "value": 0.5
+                },
+                {
+                  "match": "^bal-3-vless-4$",
+                  "regexp": true,
+                  "value": 0.5
+                },
+                {
+                  "match": "^bal-3-vless-5$",
+                  "regexp": true,
+                  "value": 0.5
                 }
               ]
             },
@@ -354,7 +606,7 @@
             "mldsa65Verify": "",
             "publicKey": "T9fWMXsQSUZrUv9qfs7WhwPoRa6RPj8vFm-m8Pap6yE",
             "serverName": "hostkey.com",
-            "shortId": "32",
+            "shortId": "0163ec00abb044",
             "show": false,
             "spiderX": "/1a0273792098f2a"
           },
@@ -406,6 +658,486 @@
       }
     },
     "remarks": "🇳🇱 Нидерланды 1 ⚡",
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": [
+        {
+          "network": "tcp,udp",
+          "outboundTag": "proxy",
+          "type": "field"
+        }
+      ]
+    },
+    "stats": {}
+  },
+  {
+    "dns": {
+      "queryStrategy": "UseIP",
+      "servers": [
+        {
+          "address": "8.8.8.8",
+          "skipFallback": false
+        }
+      ],
+      "tag": "dns_out"
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls",
+            "quic",
+            "fakedns"
+          ],
+          "enabled": true
+        },
+        "tag": "mixed"
+      },
+      {
+        "listen": "127.0.0.1",
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "userLevel": 8
+        },
+        "tag": "http"
+      }
+    ],
+    "log": {
+      "loglevel": "warning"
+    },
+    "outbounds": [
+      {
+        "protocol": "vless",
+        "tag": "proxy",
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": "",
+            "publicKey": "PsoR_HcGTpWBlkXWrmY-wZPG4znylPFd75mMP7Rcj0M",
+            "serverName": "dataforest.net",
+            "shortId": "9c5a9929ea",
+            "show": false,
+            "spiderX": "/d7c4a9f4f356477"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "settings": {
+          "address": "78.17.10.166",
+          "encryption": "none",
+          "id": "fbce9b15-3d3f-4176-9f18-ad7b4679ea33",
+          "level": 8,
+          "port": 13100
+        }
+      },
+      {
+        "protocol": "freedom",
+        "settings": {
+          "noises": [],
+          "redirect": ""
+        },
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "policy": {
+      "levels": {
+        "8": {
+          "connIdle": 300,
+          "downlinkOnly": 1,
+          "handshake": 4,
+          "uplinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundDownlink": true,
+        "statsOutboundUplink": true
+      }
+    },
+    "remarks": "🇵🇱 Польша 1",
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": [
+        {
+          "network": "tcp,udp",
+          "outboundTag": "proxy",
+          "type": "field"
+        }
+      ]
+    },
+    "stats": {}
+  },
+  {
+    "dns": {
+      "queryStrategy": "UseIP",
+      "servers": [
+        {
+          "address": "8.8.8.8",
+          "skipFallback": false
+        }
+      ],
+      "tag": "dns_out"
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls",
+            "quic",
+            "fakedns"
+          ],
+          "enabled": true
+        },
+        "tag": "mixed"
+      },
+      {
+        "listen": "127.0.0.1",
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "userLevel": 8
+        },
+        "tag": "http"
+      }
+    ],
+    "log": {
+      "loglevel": "warning"
+    },
+    "outbounds": [
+      {
+        "protocol": "vless",
+        "tag": "proxy",
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": "",
+            "publicKey": "PsoR_HcGTpWBlkXWrmY-wZPG4znylPFd75mMP7Rcj0M",
+            "serverName": "dataforest.net",
+            "shortId": "9c5a9929ea",
+            "show": false,
+            "spiderX": "/d7c4a9f4f356477"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "settings": {
+          "address": "78.17.10.166",
+          "encryption": "none",
+          "id": "fbce9b15-3d3f-4176-9f18-ad7b4679ea33",
+          "level": 8,
+          "port": 13101
+        }
+      },
+      {
+        "protocol": "freedom",
+        "settings": {
+          "noises": [],
+          "redirect": ""
+        },
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "policy": {
+      "levels": {
+        "8": {
+          "connIdle": 300,
+          "downlinkOnly": 1,
+          "handshake": 4,
+          "uplinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundDownlink": true,
+        "statsOutboundUplink": true
+      }
+    },
+    "remarks": "🇩🇪 Германия 1",
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": [
+        {
+          "network": "tcp,udp",
+          "outboundTag": "proxy",
+          "type": "field"
+        }
+      ]
+    },
+    "stats": {}
+  },
+  {
+    "dns": {
+      "queryStrategy": "UseIP",
+      "servers": [
+        {
+          "address": "8.8.8.8",
+          "skipFallback": false
+        }
+      ],
+      "tag": "dns_out"
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls",
+            "quic",
+            "fakedns"
+          ],
+          "enabled": true
+        },
+        "tag": "mixed"
+      },
+      {
+        "listen": "127.0.0.1",
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "userLevel": 8
+        },
+        "tag": "http"
+      }
+    ],
+    "log": {
+      "loglevel": "warning"
+    },
+    "outbounds": [
+      {
+        "protocol": "vless",
+        "tag": "proxy",
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": "",
+            "publicKey": "PsoR_HcGTpWBlkXWrmY-wZPG4znylPFd75mMP7Rcj0M",
+            "serverName": "dataforest.net",
+            "shortId": "9c5a9929ea",
+            "show": false,
+            "spiderX": "/d7c4a9f4f356477"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "settings": {
+          "address": "78.17.10.166",
+          "encryption": "none",
+          "id": "fbce9b15-3d3f-4176-9f18-ad7b4679ea33",
+          "level": 8,
+          "port": 13102
+        }
+      },
+      {
+        "protocol": "freedom",
+        "settings": {
+          "noises": [],
+          "redirect": ""
+        },
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "policy": {
+      "levels": {
+        "8": {
+          "connIdle": 300,
+          "downlinkOnly": 1,
+          "handshake": 4,
+          "uplinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundDownlink": true,
+        "statsOutboundUplink": true
+      }
+    },
+    "remarks": "🇩🇪 Германия 2",
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": [
+        {
+          "network": "tcp,udp",
+          "outboundTag": "proxy",
+          "type": "field"
+        }
+      ]
+    },
+    "stats": {}
+  },
+  {
+    "dns": {
+      "queryStrategy": "UseIP",
+      "servers": [
+        {
+          "address": "8.8.8.8",
+          "skipFallback": false
+        }
+      ],
+      "tag": "dns_out"
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls",
+            "quic",
+            "fakedns"
+          ],
+          "enabled": true
+        },
+        "tag": "mixed"
+      },
+      {
+        "listen": "127.0.0.1",
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "userLevel": 8
+        },
+        "tag": "http"
+      }
+    ],
+    "log": {
+      "loglevel": "warning"
+    },
+    "outbounds": [
+      {
+        "protocol": "vless",
+        "tag": "proxy",
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": "",
+            "publicKey": "70hMIWW1uECDW0xojaYq5Hf-nEf3JWtGBb4azZXoq0c",
+            "serverName": "dataforest.net",
+            "shortId": "13",
+            "show": false,
+            "spiderX": "/6703b02676585b9"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "settings": {
+          "address": "78.17.10.166",
+          "encryption": "none",
+          "id": "fbce9b15-3d3f-4176-9f18-ad7b4679ea33",
+          "level": 8,
+          "port": 13103
+        }
+      },
+      {
+        "protocol": "freedom",
+        "settings": {
+          "noises": [],
+          "redirect": ""
+        },
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "policy": {
+      "levels": {
+        "8": {
+          "connIdle": 300,
+          "downlinkOnly": 1,
+          "handshake": 4,
+          "uplinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundDownlink": true,
+        "statsOutboundUplink": true
+      }
+    },
+    "remarks": "🇫🇮 Финляндия 1",
     "routing": {
       "domainStrategy": "AsIs",
       "rules": [
