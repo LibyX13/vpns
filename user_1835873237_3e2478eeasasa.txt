@@ -74,7 +74,7 @@
             "mldsa65Verify": "",
             "publicKey": "T9fWMXsQSUZrUv9qfs7WhwPoRa6RPj8vFm-m8Pap6yE",
             "serverName": "hostkey.com",
-            "shortId": "6c5bcbab3f131ada",
+            "shortId": "32",
             "show": false,
             "spiderX": "/ce3968545ec4907"
           },
@@ -103,7 +103,7 @@
             "mldsa65Verify": "",
             "publicKey": "mcjmjmqY-NvRSCabRHdWv4R9jfpmKfiHcOgOlsJOEHs",
             "serverName": "dataforest.net",
-            "shortId": "d45c935771138f32",
+            "shortId": "0d",
             "show": false,
             "spiderX": "/e829dc488a41141"
           },
@@ -248,7 +248,7 @@
             "mldsa65Verify": "",
             "publicKey": "T9fWMXsQSUZrUv9qfs7WhwPoRa6RPj8vFm-m8Pap6yE",
             "serverName": "hostkey.com",
-            "shortId": "6c5bcbab3f131ada",
+            "shortId": "32",
             "show": false,
             "spiderX": "/ce3968545ec4907"
           },
@@ -277,7 +277,7 @@
             "mldsa65Verify": "",
             "publicKey": "mcjmjmqY-NvRSCabRHdWv4R9jfpmKfiHcOgOlsJOEHs",
             "serverName": "dataforest.net",
-            "shortId": "d45c935771138f32",
+            "shortId": "0d",
             "show": false,
             "spiderX": "/e829dc488a41141"
           },
@@ -417,7 +417,7 @@
             "mldsa65Verify": "",
             "publicKey": "T9fWMXsQSUZrUv9qfs7WhwPoRa6RPj8vFm-m8Pap6yE",
             "serverName": "hostkey.com",
-            "shortId": "6c5bcbab3f131ada",
+            "shortId": "32",
             "show": false,
             "spiderX": "/ce3968545ec4907"
           },
@@ -537,7 +537,7 @@
             "mldsa65Verify": "",
             "publicKey": "mcjmjmqY-NvRSCabRHdWv4R9jfpmKfiHcOgOlsJOEHs",
             "serverName": "dataforest.net",
-            "shortId": "d45c935771138f32",
+            "shortId": "0d",
             "show": false,
             "spiderX": "/e829dc488a41141"
           },
@@ -657,7 +657,7 @@
             "mldsa65Verify": "",
             "publicKey": "PsoR_HcGTpWBlkXWrmY-wZPG4znylPFd75mMP7Rcj0M",
             "serverName": "dataforest.net",
-            "shortId": "94605eccb240d7",
+            "shortId": "4b26e32ba755",
             "show": false,
             "spiderX": "/8f28c5e380f8d5a"
           },
@@ -777,7 +777,7 @@
             "mldsa65Verify": "",
             "publicKey": "PsoR_HcGTpWBlkXWrmY-wZPG4znylPFd75mMP7Rcj0M",
             "serverName": "dataforest.net",
-            "shortId": "9c5a9929ea",
+            "shortId": "94605eccb240d7",
             "show": false,
             "spiderX": "/8f28c5e380f8d5a"
           },
@@ -897,7 +897,7 @@
             "mldsa65Verify": "",
             "publicKey": "PsoR_HcGTpWBlkXWrmY-wZPG4znylPFd75mMP7Rcj0M",
             "serverName": "dataforest.net",
-            "shortId": "aa16096ee4706129",
+            "shortId": "4b26e32ba755",
             "show": false,
             "spiderX": "/8f28c5e380f8d5a"
           },
@@ -1017,7 +1017,7 @@
             "mldsa65Verify": "",
             "publicKey": "70hMIWW1uECDW0xojaYq5Hf-nEf3JWtGBb4azZXoq0c",
             "serverName": "dataforest.net",
-            "shortId": "13",
+            "shortId": "0e54",
             "show": false,
             "spiderX": "/ad6286ddd19214d"
           },
