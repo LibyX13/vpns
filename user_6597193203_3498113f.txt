@@ -74,7 +74,7 @@
             "mldsa65Verify": "",
             "publicKey": "T9fWMXsQSUZrUv9qfs7WhwPoRa6RPj8vFm-m8Pap6yE",
             "serverName": "hostkey.com",
-            "shortId": "15482270",
+            "shortId": "777f813d2268",
             "show": false,
             "spiderX": "/fb31c8900ec6ec8"
           },
@@ -219,7 +219,7 @@
             "mldsa65Verify": "",
             "publicKey": "T9fWMXsQSUZrUv9qfs7WhwPoRa6RPj8vFm-m8Pap6yE",
             "serverName": "hostkey.com",
-            "shortId": "15482270",
+            "shortId": "777f813d2268",
             "show": false,
             "spiderX": "/fb31c8900ec6ec8"
           },
@@ -354,7 +354,7 @@
             "mldsa65Verify": "",
             "publicKey": "T9fWMXsQSUZrUv9qfs7WhwPoRa6RPj8vFm-m8Pap6yE",
             "serverName": "hostkey.com",
-            "shortId": "15482270",
+            "shortId": "777f813d2268",
             "show": false,
             "spiderX": "/fb31c8900ec6ec8"
           },
@@ -474,7 +474,7 @@
             "mldsa65Verify": "",
             "publicKey": "PsoR_HcGTpWBlkXWrmY-wZPG4znylPFd75mMP7Rcj0M",
             "serverName": "dataforest.net",
-            "shortId": "004d2ffa",
+            "shortId": "9b",
             "show": false,
             "spiderX": "/5bed3606c37750f"
           },
@@ -594,7 +594,7 @@
             "mldsa65Verify": "",
             "publicKey": "PsoR_HcGTpWBlkXWrmY-wZPG4znylPFd75mMP7Rcj0M",
             "serverName": "dataforest.net",
-            "shortId": "9c5a9929ea",
+            "shortId": "94605eccb240d7",
             "show": false,
             "spiderX": "/5bed3606c37750f"
           },
@@ -834,7 +834,7 @@
             "mldsa65Verify": "",
             "publicKey": "70hMIWW1uECDW0xojaYq5Hf-nEf3JWtGBb4azZXoq0c",
             "serverName": "dataforest.net",
-            "shortId": "2d4747067aef",
+            "shortId": "0e54",
             "show": false,
             "spiderX": "/2ce0c1f4b2a3daf"
           },
