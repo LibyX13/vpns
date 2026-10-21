@@ -88,6 +88,35 @@
         "tag": "bal-4-vless"
       },
       {
+        "protocol": "vless",
+        "settings": {
+          "address": "de14.h1cloud.net",
+          "encryption": "none",
+          "id": "01c16068-eb7a-4dc4-8960-7f3f2dd30116",
+          "level": 8,
+          "port": 25633
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": "",
+            "publicKey": "mcjmjmqY-NvRSCabRHdWv4R9jfpmKfiHcOgOlsJOEHs",
+            "serverName": "dataforest.net",
+            "shortId": "8beea7b6d8563e",
+            "show": false,
+            "spiderX": "/474b7ea41e7b782"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "tag": "bal-4-vless-2"
+      },
+      {
         "protocol": "freedom",
         "settings": {
           "noises": [],
@@ -233,6 +262,35 @@
         "tag": "bal-3-vless"
       },
       {
+        "protocol": "vless",
+        "settings": {
+          "address": "de14.h1cloud.net",
+          "encryption": "none",
+          "id": "01c16068-eb7a-4dc4-8960-7f3f2dd30116",
+          "level": 8,
+          "port": 25633
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": "",
+            "publicKey": "mcjmjmqY-NvRSCabRHdWv4R9jfpmKfiHcOgOlsJOEHs",
+            "serverName": "dataforest.net",
+            "shortId": "8beea7b6d8563e",
+            "show": false,
+            "spiderX": "/474b7ea41e7b782"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "tag": "bal-3-vless-2"
+      },
+      {
         "protocol": "freedom",
         "settings": {
           "noises": [],
@@ -277,6 +335,11 @@
               "costs": [
                 {
                   "match": "^bal-3-vless$",
+                  "regexp": true,
+                  "value": 1
+                },
+                {
+                  "match": "^bal-3-vless-2$",
                   "regexp": true,
                   "value": 1
                 }
@@ -472,11 +535,131 @@
           "realitySettings": {
             "fingerprint": "firefox",
             "mldsa65Verify": "",
-            "publicKey": "PsoR_HcGTpWBlkXWrmY-wZPG4znylPFd75mMP7Rcj0M",
+            "publicKey": "mcjmjmqY-NvRSCabRHdWv4R9jfpmKfiHcOgOlsJOEHs",
             "serverName": "dataforest.net",
-            "shortId": "004d2ffa",
+            "shortId": "8beea7b6d8563e",
             "show": false,
-            "spiderX": "/4f8f3b4bc039056"
+            "spiderX": "/474b7ea41e7b782"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "settings": {
+          "address": "de14.h1cloud.net",
+          "encryption": "none",
+          "id": "01c16068-eb7a-4dc4-8960-7f3f2dd30116",
+          "level": 8,
+          "port": 25633
+        }
+      },
+      {
+        "protocol": "freedom",
+        "settings": {
+          "noises": [],
+          "redirect": ""
+        },
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "policy": {
+      "levels": {
+        "8": {
+          "connIdle": 300,
+          "downlinkOnly": 1,
+          "handshake": 4,
+          "uplinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundDownlink": true,
+        "statsOutboundUplink": true
+      }
+    },
+    "remarks": "🇩🇪 Германия 1 ⚡",
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": [
+        {
+          "network": "tcp,udp",
+          "outboundTag": "proxy",
+          "type": "field"
+        }
+      ]
+    },
+    "stats": {}
+  },
+  {
+    "dns": {
+      "queryStrategy": "UseIP",
+      "servers": [
+        {
+          "address": "8.8.8.8",
+          "skipFallback": false
+        }
+      ],
+      "tag": "dns_out"
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls",
+            "quic",
+            "fakedns"
+          ],
+          "enabled": true
+        },
+        "tag": "mixed"
+      },
+      {
+        "listen": "127.0.0.1",
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "userLevel": 8
+        },
+        "tag": "http"
+      }
+    ],
+    "log": {
+      "loglevel": "warning"
+    },
+    "outbounds": [
+      {
+        "protocol": "vless",
+        "tag": "proxy",
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": "",
+            "publicKey": "r8pWjzy8ULWLLqTgTtdgSJDdEnkjJSEediCKgnpPbQY",
+            "serverName": "www.cloudflare.com",
+            "shortId": "460b7c5a18ac2a",
+            "show": false,
+            "spiderX": "/818f4f522d3c40b"
           },
           "security": "reality",
           "tcpSettings": {
@@ -490,7 +673,7 @@
           "encryption": "none",
           "id": "01c16068-eb7a-4dc4-8960-7f3f2dd30116",
           "level": 8,
-          "port": 13100
+          "port": 13301
         }
       },
       {
@@ -592,11 +775,11 @@
           "realitySettings": {
             "fingerprint": "firefox",
             "mldsa65Verify": "",
-            "publicKey": "PsoR_HcGTpWBlkXWrmY-wZPG4znylPFd75mMP7Rcj0M",
-            "serverName": "dataforest.net",
-            "shortId": "9b",
+            "publicKey": "r8pWjzy8ULWLLqTgTtdgSJDdEnkjJSEediCKgnpPbQY",
+            "serverName": "www.cloudflare.com",
+            "shortId": "b71132",
             "show": false,
-            "spiderX": "/4f8f3b4bc039056"
+            "spiderX": "/818f4f522d3c40b"
           },
           "security": "reality",
           "tcpSettings": {
@@ -610,7 +793,7 @@
           "encryption": "none",
           "id": "01c16068-eb7a-4dc4-8960-7f3f2dd30116",
           "level": 8,
-          "port": 13101
+          "port": 13302
         }
       },
       {
@@ -712,11 +895,11 @@
           "realitySettings": {
             "fingerprint": "firefox",
             "mldsa65Verify": "",
-            "publicKey": "PsoR_HcGTpWBlkXWrmY-wZPG4znylPFd75mMP7Rcj0M",
-            "serverName": "dataforest.net",
-            "shortId": "94605eccb240d7",
+            "publicKey": "r8pWjzy8ULWLLqTgTtdgSJDdEnkjJSEediCKgnpPbQY",
+            "serverName": "blog.api.www.cloudflare.com",
+            "shortId": "460b7c5a18ac2a",
             "show": false,
-            "spiderX": "/4f8f3b4bc039056"
+            "spiderX": "/818f4f522d3c40b"
           },
           "security": "reality",
           "tcpSettings": {
@@ -730,7 +913,7 @@
           "encryption": "none",
           "id": "01c16068-eb7a-4dc4-8960-7f3f2dd30116",
           "level": 8,
-          "port": 13102
+          "port": 13303
         }
       },
       {
@@ -832,11 +1015,11 @@
           "realitySettings": {
             "fingerprint": "firefox",
             "mldsa65Verify": "",
-            "publicKey": "70hMIWW1uECDW0xojaYq5Hf-nEf3JWtGBb4azZXoq0c",
-            "serverName": "dataforest.net",
-            "shortId": "0e54",
+            "publicKey": "r8pWjzy8ULWLLqTgTtdgSJDdEnkjJSEediCKgnpPbQY",
+            "serverName": "blog.api.www.cloudflare.com",
+            "shortId": "a93b523aa5fd",
             "show": false,
-            "spiderX": "/738026334a252e9"
+            "spiderX": "/818f4f522d3c40b"
           },
           "security": "reality",
           "tcpSettings": {
@@ -850,7 +1033,367 @@
           "encryption": "none",
           "id": "01c16068-eb7a-4dc4-8960-7f3f2dd30116",
           "level": 8,
-          "port": 13103
+          "port": 13304
+        }
+      },
+      {
+        "protocol": "freedom",
+        "settings": {
+          "noises": [],
+          "redirect": ""
+        },
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "policy": {
+      "levels": {
+        "8": {
+          "connIdle": 300,
+          "downlinkOnly": 1,
+          "handshake": 4,
+          "uplinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundDownlink": true,
+        "statsOutboundUplink": true
+      }
+    },
+    "remarks": "🇵🇹 Португалия",
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": [
+        {
+          "network": "tcp,udp",
+          "outboundTag": "proxy",
+          "type": "field"
+        }
+      ]
+    },
+    "stats": {}
+  },
+  {
+    "dns": {
+      "queryStrategy": "UseIP",
+      "servers": [
+        {
+          "address": "8.8.8.8",
+          "skipFallback": false
+        }
+      ],
+      "tag": "dns_out"
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls",
+            "quic",
+            "fakedns"
+          ],
+          "enabled": true
+        },
+        "tag": "mixed"
+      },
+      {
+        "listen": "127.0.0.1",
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "userLevel": 8
+        },
+        "tag": "http"
+      }
+    ],
+    "log": {
+      "loglevel": "warning"
+    },
+    "outbounds": [
+      {
+        "protocol": "vless",
+        "tag": "proxy",
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": "",
+            "publicKey": "r8pWjzy8ULWLLqTgTtdgSJDdEnkjJSEediCKgnpPbQY",
+            "serverName": "blog.api.www.cloudflare.com",
+            "shortId": "460b7c5a18ac2a",
+            "show": false,
+            "spiderX": "/818f4f522d3c40b"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "settings": {
+          "address": "78.17.10.166",
+          "encryption": "none",
+          "id": "01c16068-eb7a-4dc4-8960-7f3f2dd30116",
+          "level": 8,
+          "port": 13305
+        }
+      },
+      {
+        "protocol": "freedom",
+        "settings": {
+          "noises": [],
+          "redirect": ""
+        },
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "policy": {
+      "levels": {
+        "8": {
+          "connIdle": 300,
+          "downlinkOnly": 1,
+          "handshake": 4,
+          "uplinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundDownlink": true,
+        "statsOutboundUplink": true
+      }
+    },
+    "remarks": " 🇳🇱 Нидерланды 2",
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": [
+        {
+          "network": "tcp,udp",
+          "outboundTag": "proxy",
+          "type": "field"
+        }
+      ]
+    },
+    "stats": {}
+  },
+  {
+    "dns": {
+      "queryStrategy": "UseIP",
+      "servers": [
+        {
+          "address": "8.8.8.8",
+          "skipFallback": false
+        }
+      ],
+      "tag": "dns_out"
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls",
+            "quic",
+            "fakedns"
+          ],
+          "enabled": true
+        },
+        "tag": "mixed"
+      },
+      {
+        "listen": "127.0.0.1",
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "userLevel": 8
+        },
+        "tag": "http"
+      }
+    ],
+    "log": {
+      "loglevel": "warning"
+    },
+    "outbounds": [
+      {
+        "protocol": "vless",
+        "tag": "proxy",
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": "",
+            "publicKey": "r8pWjzy8ULWLLqTgTtdgSJDdEnkjJSEediCKgnpPbQY",
+            "serverName": "www.cloudflare.com",
+            "shortId": "460b7c5a18ac2a",
+            "show": false,
+            "spiderX": "/818f4f522d3c40b"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "settings": {
+          "address": "78.17.10.166",
+          "encryption": "none",
+          "id": "01c16068-eb7a-4dc4-8960-7f3f2dd30116",
+          "level": 8,
+          "port": 13306
+        }
+      },
+      {
+        "protocol": "freedom",
+        "settings": {
+          "noises": [],
+          "redirect": ""
+        },
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "policy": {
+      "levels": {
+        "8": {
+          "connIdle": 300,
+          "downlinkOnly": 1,
+          "handshake": 4,
+          "uplinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundDownlink": true,
+        "statsOutboundUplink": true
+      }
+    },
+    "remarks": " 🇳🇱 Нидерланды 3",
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": [
+        {
+          "network": "tcp,udp",
+          "outboundTag": "proxy",
+          "type": "field"
+        }
+      ]
+    },
+    "stats": {}
+  },
+  {
+    "dns": {
+      "queryStrategy": "UseIP",
+      "servers": [
+        {
+          "address": "8.8.8.8",
+          "skipFallback": false
+        }
+      ],
+      "tag": "dns_out"
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls",
+            "quic",
+            "fakedns"
+          ],
+          "enabled": true
+        },
+        "tag": "mixed"
+      },
+      {
+        "listen": "127.0.0.1",
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "userLevel": 8
+        },
+        "tag": "http"
+      }
+    ],
+    "log": {
+      "loglevel": "warning"
+    },
+    "outbounds": [
+      {
+        "protocol": "vless",
+        "tag": "proxy",
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": "",
+            "publicKey": "r8pWjzy8ULWLLqTgTtdgSJDdEnkjJSEediCKgnpPbQY",
+            "serverName": "www.cloudflare.com",
+            "shortId": "fd0fa4b51b",
+            "show": false,
+            "spiderX": "/818f4f522d3c40b"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "settings": {
+          "address": "78.17.10.166",
+          "encryption": "none",
+          "id": "01c16068-eb7a-4dc4-8960-7f3f2dd30116",
+          "level": 8,
+          "port": 13307
         }
       },
       {
@@ -886,6 +1429,366 @@
       }
     },
     "remarks": "🇫🇮 Финляндия 1",
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": [
+        {
+          "network": "tcp,udp",
+          "outboundTag": "proxy",
+          "type": "field"
+        }
+      ]
+    },
+    "stats": {}
+  },
+  {
+    "dns": {
+      "queryStrategy": "UseIP",
+      "servers": [
+        {
+          "address": "8.8.8.8",
+          "skipFallback": false
+        }
+      ],
+      "tag": "dns_out"
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls",
+            "quic",
+            "fakedns"
+          ],
+          "enabled": true
+        },
+        "tag": "mixed"
+      },
+      {
+        "listen": "127.0.0.1",
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "userLevel": 8
+        },
+        "tag": "http"
+      }
+    ],
+    "log": {
+      "loglevel": "warning"
+    },
+    "outbounds": [
+      {
+        "protocol": "vless",
+        "tag": "proxy",
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": "",
+            "publicKey": "r8pWjzy8ULWLLqTgTtdgSJDdEnkjJSEediCKgnpPbQY",
+            "serverName": "www.cloudflare.com",
+            "shortId": "a0",
+            "show": false,
+            "spiderX": "/818f4f522d3c40b"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "settings": {
+          "address": "78.17.10.166",
+          "encryption": "none",
+          "id": "01c16068-eb7a-4dc4-8960-7f3f2dd30116",
+          "level": 8,
+          "port": 13308
+        }
+      },
+      {
+        "protocol": "freedom",
+        "settings": {
+          "noises": [],
+          "redirect": ""
+        },
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "policy": {
+      "levels": {
+        "8": {
+          "connIdle": 300,
+          "downlinkOnly": 1,
+          "handshake": 4,
+          "uplinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundDownlink": true,
+        "statsOutboundUplink": true
+      }
+    },
+    "remarks": "🇦🇹 Австрия 1",
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": [
+        {
+          "network": "tcp,udp",
+          "outboundTag": "proxy",
+          "type": "field"
+        }
+      ]
+    },
+    "stats": {}
+  },
+  {
+    "dns": {
+      "queryStrategy": "UseIP",
+      "servers": [
+        {
+          "address": "8.8.8.8",
+          "skipFallback": false
+        }
+      ],
+      "tag": "dns_out"
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls",
+            "quic",
+            "fakedns"
+          ],
+          "enabled": true
+        },
+        "tag": "mixed"
+      },
+      {
+        "listen": "127.0.0.1",
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "userLevel": 8
+        },
+        "tag": "http"
+      }
+    ],
+    "log": {
+      "loglevel": "warning"
+    },
+    "outbounds": [
+      {
+        "protocol": "vless",
+        "tag": "proxy",
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": "",
+            "publicKey": "r8pWjzy8ULWLLqTgTtdgSJDdEnkjJSEediCKgnpPbQY",
+            "serverName": "blog.api.www.cloudflare.com",
+            "shortId": "496d",
+            "show": false,
+            "spiderX": "/818f4f522d3c40b"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "settings": {
+          "address": "78.17.10.166",
+          "encryption": "none",
+          "id": "01c16068-eb7a-4dc4-8960-7f3f2dd30116",
+          "level": 8,
+          "port": 13309
+        }
+      },
+      {
+        "protocol": "freedom",
+        "settings": {
+          "noises": [],
+          "redirect": ""
+        },
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "policy": {
+      "levels": {
+        "8": {
+          "connIdle": 300,
+          "downlinkOnly": 1,
+          "handshake": 4,
+          "uplinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundDownlink": true,
+        "statsOutboundUplink": true
+      }
+    },
+    "remarks": "🇺🇸 США",
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": [
+        {
+          "network": "tcp,udp",
+          "outboundTag": "proxy",
+          "type": "field"
+        }
+      ]
+    },
+    "stats": {}
+  },
+  {
+    "dns": {
+      "queryStrategy": "UseIP",
+      "servers": [
+        {
+          "address": "8.8.8.8",
+          "skipFallback": false
+        }
+      ],
+      "tag": "dns_out"
+    },
+    "inbounds": [
+      {
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls",
+            "quic",
+            "fakedns"
+          ],
+          "enabled": true
+        },
+        "tag": "mixed"
+      },
+      {
+        "listen": "127.0.0.1",
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "userLevel": 8
+        },
+        "tag": "http"
+      }
+    ],
+    "log": {
+      "loglevel": "warning"
+    },
+    "outbounds": [
+      {
+        "protocol": "vless",
+        "tag": "proxy",
+        "streamSettings": {
+          "network": "tcp",
+          "realitySettings": {
+            "fingerprint": "firefox",
+            "mldsa65Verify": "",
+            "publicKey": "r8pWjzy8ULWLLqTgTtdgSJDdEnkjJSEediCKgnpPbQY",
+            "serverName": "www.cloudflare.com",
+            "shortId": "496d",
+            "show": false,
+            "spiderX": "/818f4f522d3c40b"
+          },
+          "security": "reality",
+          "tcpSettings": {
+            "header": {
+              "type": "none"
+            }
+          }
+        },
+        "settings": {
+          "address": "78.17.10.166",
+          "encryption": "none",
+          "id": "01c16068-eb7a-4dc4-8960-7f3f2dd30116",
+          "level": 8,
+          "port": 13310
+        }
+      },
+      {
+        "protocol": "freedom",
+        "settings": {
+          "noises": [],
+          "redirect": ""
+        },
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "policy": {
+      "levels": {
+        "8": {
+          "connIdle": 300,
+          "downlinkOnly": 1,
+          "handshake": 4,
+          "uplinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundDownlink": true,
+        "statsOutboundUplink": true
+      }
+    },
+    "remarks": "🇯🇵 Япония",
     "routing": {
       "domainStrategy": "AsIs",
       "rules": [
